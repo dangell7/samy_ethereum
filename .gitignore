@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea/
+tests/
+testing.py
+chains/
+project.json
+samy_firebase.py
+testing1.py
+contracts/Vidulum.sol
+contracts/V2.sol
+__pycache__/
