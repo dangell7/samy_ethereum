@@ -88,3 +88,9 @@ Attach Geth to Local Test Chain
 ```
 geth attach /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samy/chain_data/geth.ipc
 ```
+
+Install Forked Web3 Repo
+
+```
+pip install -e git+git://github.com/harpangell7/web3.py.git@master#egg=web3.py
+```
