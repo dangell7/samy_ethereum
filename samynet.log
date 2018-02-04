@@ -1,0 +1,1566 @@
+INFO [02-03|17:56:26] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|17:56:26] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+WARN [02-03|17:56:26] Upgrading database to use lookup entries 
+INFO [02-03|17:56:26] Initialised chain configuration          config="{ChainID: <nil> Homestead: 0 DAO: 0 DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|17:56:26] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|17:56:26] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|17:56:26] Initialising Ethereum protocol           versions="[63 62]" network=1234
+INFO [02-03|17:56:26] Database deduplication successful        deduped=0
+INFO [02-03|17:56:26] Loaded most recent local header          number=0 hash=a4bc6e…a3b043 td=1
+INFO [02-03|17:56:26] Loaded most recent local full block      number=0 hash=a4bc6e…a3b043 td=1
+INFO [02-03|17:56:26] Loaded most recent local fast block      number=0 hash=a4bc6e…a3b043 td=1
+INFO [02-03|17:56:26] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-03|17:56:26] Starting P2P networking 
+INFO [02-03|17:56:26] RLPx listener up                         self="enode://de2f8300f39bc88c847df099c6ac33dd738f7f72f6ea2cf600cfdf02a9d300bae975b2feec26def77b1c0cc4f7245a70967c63bc347f39e3bdf9aaaf80fbd414@[::]:30303?discport=0"
+INFO [02-03|17:56:26] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|17:56:26] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [02-03|17:56:26] WebSocket endpoint opened: ws://127.0.0.1:8546 
+INFO [02-03|17:56:27] Unlocked account                         address=0xa54680555D8C1b8803b8B8986364Eb7BD3B0cb16
+INFO [02-03|17:56:27] Transaction pool price threshold updated price=18000000000
+INFO [02-03|17:56:27] Starting mining operation 
+INFO [02-03|17:56:27] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=169.875µs
+INFO [02-03|17:57:14] Successfully sealed new block            number=1 hash=2e4ceb…c82c86
+INFO [02-03|17:57:14] 🔨 mined potential block                  number=1 hash=2e4ceb…c82c86
+INFO [02-03|17:57:14] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=158.022µs
+INFO [02-03|17:57:19] Successfully sealed new block            number=2 hash=c15f11…553433
+INFO [02-03|17:57:19] 🔨 mined potential block                  number=2 hash=c15f11…553433
+INFO [02-03|17:57:19] Commit new mining work                   number=3 txs=0 uncles=0 elapsed=98.203µs
+INFO [02-03|17:57:21] Successfully sealed new block            number=3 hash=e7d911…c02ffe
+INFO [02-03|17:57:21] 🔨 mined potential block                  number=3 hash=e7d911…c02ffe
+INFO [02-03|17:57:21] Commit new mining work                   number=4 txs=0 uncles=0 elapsed=153.143µs
+INFO [02-03|17:57:25] Successfully sealed new block            number=4 hash=9b4737…f055ea
+INFO [02-03|17:57:25] 🔨 mined potential block                  number=4 hash=9b4737…f055ea
+INFO [02-03|17:57:25] Commit new mining work                   number=5 txs=0 uncles=0 elapsed=98.1µs
+INFO [02-03|17:57:32] Successfully sealed new block            number=5 hash=9f1fab…3155a8
+INFO [02-03|17:57:32] 🔨 mined potential block                  number=5 hash=9f1fab…3155a8
+INFO [02-03|17:57:32] Commit new mining work                   number=6 txs=0 uncles=0 elapsed=125.145µs
+INFO [02-03|17:57:32] Successfully sealed new block            number=6 hash=be3c48…2478c6
+INFO [02-03|17:57:32] 🔗 block reached canonical chain          number=1 hash=2e4ceb…c82c86
+INFO [02-03|17:57:32] 🔨 mined potential block                  number=6 hash=be3c48…2478c6
+INFO [02-03|17:57:32] Commit new mining work                   number=7 txs=0 uncles=0 elapsed=118.674µs
+INFO [02-03|17:57:36] Successfully sealed new block            number=7 hash=03f1f8…c68a9b
+INFO [02-03|17:57:36] 🔗 block reached canonical chain          number=2 hash=c15f11…553433
+INFO [02-03|17:57:36] 🔨 mined potential block                  number=7 hash=03f1f8…c68a9b
+INFO [02-03|17:57:36] Commit new mining work                   number=8 txs=0 uncles=0 elapsed=129.817µs
+INFO [02-03|17:57:42] Successfully sealed new block            number=8 hash=59ac76…e583bc
+INFO [02-03|17:57:42] 🔗 block reached canonical chain          number=3 hash=e7d911…c02ffe
+INFO [02-03|17:57:42] 🔨 mined potential block                  number=8 hash=59ac76…e583bc
+INFO [02-03|17:57:42] Commit new mining work                   number=9 txs=0 uncles=0 elapsed=161.846µs
+INFO [02-03|17:57:43] Successfully sealed new block            number=9 hash=98ca0e…7eff95
+INFO [02-03|17:57:43] 🔗 block reached canonical chain          number=4 hash=9b4737…f055ea
+INFO [02-03|17:57:43] 🔨 mined potential block                  number=9 hash=98ca0e…7eff95
+INFO [02-03|17:57:43] Commit new mining work                   number=10 txs=0 uncles=0 elapsed=126.034µs
+INFO [02-03|17:57:43] Successfully sealed new block            number=10 hash=30b5b2…eee78e
+INFO [02-03|17:57:43] 🔗 block reached canonical chain          number=5  hash=9f1fab…3155a8
+INFO [02-03|17:57:43] 🔨 mined potential block                  number=10 hash=30b5b2…eee78e
+INFO [02-03|17:57:43] Commit new mining work                   number=11 txs=0 uncles=0 elapsed=107.162µs
+INFO [02-03|17:57:43] Successfully sealed new block            number=11 hash=1d0b5c…1ccad8
+INFO [02-03|17:57:43] 🔗 block reached canonical chain          number=6  hash=be3c48…2478c6
+INFO [02-03|17:57:43] 🔨 mined potential block                  number=11 hash=1d0b5c…1ccad8
+INFO [02-03|17:57:43] Mining too far in the future             wait=2s
+INFO [02-03|17:57:45] Commit new mining work                   number=12 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|17:57:47] Successfully sealed new block            number=12 hash=ff0b02…be9a05
+INFO [02-03|17:57:47] 🔗 block reached canonical chain          number=7  hash=03f1f8…c68a9b
+INFO [02-03|17:57:47] 🔨 mined potential block                  number=12 hash=ff0b02…be9a05
+INFO [02-03|17:57:47] Commit new mining work                   number=13 txs=0 uncles=0 elapsed=186.065µs
+INFO [02-03|17:57:55] Successfully sealed new block            number=13 hash=d5aeb0…44141c
+INFO [02-03|17:57:55] 🔗 block reached canonical chain          number=8  hash=59ac76…e583bc
+INFO [02-03|17:57:55] 🔨 mined potential block                  number=13 hash=d5aeb0…44141c
+INFO [02-03|17:57:55] Commit new mining work                   number=14 txs=0 uncles=0 elapsed=131.679µs
+INFO [02-03|17:58:01] Successfully sealed new block            number=14 hash=133829…221958
+INFO [02-03|17:58:01] 🔗 block reached canonical chain          number=9  hash=98ca0e…7eff95
+INFO [02-03|17:58:01] 🔨 mined potential block                  number=14 hash=133829…221958
+INFO [02-03|17:58:01] Commit new mining work                   number=15 txs=0 uncles=0 elapsed=128.971µs
+INFO [02-03|17:58:03] Successfully sealed new block            number=15 hash=a176a6…3b1119
+INFO [02-03|17:58:03] 🔗 block reached canonical chain          number=10 hash=30b5b2…eee78e
+INFO [02-03|17:58:03] 🔨 mined potential block                  number=15 hash=a176a6…3b1119
+INFO [02-03|17:58:03] Commit new mining work                   number=16 txs=0 uncles=0 elapsed=126.729µs
+INFO [02-03|17:58:07] Successfully sealed new block            number=16 hash=bc7bf6…f27fe1
+INFO [02-03|17:58:07] 🔗 block reached canonical chain          number=11 hash=1d0b5c…1ccad8
+INFO [02-03|17:58:07] 🔨 mined potential block                  number=16 hash=bc7bf6…f27fe1
+INFO [02-03|17:58:07] Commit new mining work                   number=17 txs=0 uncles=0 elapsed=126.191µs
+INFO [02-03|17:58:08] Successfully sealed new block            number=17 hash=2bcca1…18fa68
+INFO [02-03|17:58:08] 🔗 block reached canonical chain          number=12 hash=ff0b02…be9a05
+INFO [02-03|17:58:08] 🔨 mined potential block                  number=17 hash=2bcca1…18fa68
+INFO [02-03|17:58:08] Commit new mining work                   number=18 txs=0 uncles=0 elapsed=100.167µs
+INFO [02-03|17:58:09] Successfully sealed new block            number=18 hash=0b1548…e63d1e
+INFO [02-03|17:58:09] 🔗 block reached canonical chain          number=13 hash=d5aeb0…44141c
+INFO [02-03|17:58:09] 🔨 mined potential block                  number=18 hash=0b1548…e63d1e
+INFO [02-03|17:58:09] Commit new mining work                   number=19 txs=0 uncles=0 elapsed=119.838µs
+INFO [02-03|17:58:09] Successfully sealed new block            number=19 hash=8433d2…054f6b
+INFO [02-03|17:58:09] 🔗 block reached canonical chain          number=14 hash=133829…221958
+INFO [02-03|17:58:09] 🔨 mined potential block                  number=19 hash=8433d2…054f6b
+INFO [02-03|17:58:09] Commit new mining work                   number=20 txs=0 uncles=0 elapsed=107.876µs
+INFO [02-03|17:58:10] Successfully sealed new block            number=20 hash=c6f027…ec7422
+INFO [02-03|17:58:10] 🔗 block reached canonical chain          number=15 hash=a176a6…3b1119
+INFO [02-03|17:58:10] 🔨 mined potential block                  number=20 hash=c6f027…ec7422
+INFO [02-03|17:58:10] Commit new mining work                   number=21 txs=0 uncles=0 elapsed=152.096µs
+INFO [02-03|17:58:10] Successfully sealed new block            number=21 hash=3d0c24…22b502
+INFO [02-03|17:58:10] 🔗 block reached canonical chain          number=16 hash=bc7bf6…f27fe1
+INFO [02-03|17:58:10] 🔨 mined potential block                  number=21 hash=3d0c24…22b502
+INFO [02-03|17:58:10] Mining too far in the future             wait=2s
+INFO [02-03|17:58:12] Commit new mining work                   number=22 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|17:58:15] Successfully sealed new block            number=22 hash=5abecd…a81346
+INFO [02-03|17:58:15] 🔗 block reached canonical chain          number=17 hash=2bcca1…18fa68
+INFO [02-03|17:58:15] 🔨 mined potential block                  number=22 hash=5abecd…a81346
+INFO [02-03|17:58:15] Commit new mining work                   number=23 txs=0 uncles=0 elapsed=127.151µs
+INFO [02-03|17:58:17] Successfully sealed new block            number=23 hash=4cfa2d…02fa0c
+INFO [02-03|17:58:17] 🔗 block reached canonical chain          number=18 hash=0b1548…e63d1e
+INFO [02-03|17:58:17] 🔨 mined potential block                  number=23 hash=4cfa2d…02fa0c
+INFO [02-03|17:58:17] Commit new mining work                   number=24 txs=0 uncles=0 elapsed=119.9µs
+INFO [02-03|17:58:17] Successfully sealed new block            number=24 hash=db0593…d7ce29
+INFO [02-03|17:58:17] 🔗 block reached canonical chain          number=19 hash=8433d2…054f6b
+INFO [02-03|17:58:17] 🔨 mined potential block                  number=24 hash=db0593…d7ce29
+INFO [02-03|17:58:17] Commit new mining work                   number=25 txs=0 uncles=0 elapsed=135.74µs
+INFO [02-03|17:58:19] Successfully sealed new block            number=25 hash=a5f53b…1892ed
+INFO [02-03|17:58:19] 🔗 block reached canonical chain          number=20 hash=c6f027…ec7422
+INFO [02-03|17:58:19] 🔨 mined potential block                  number=25 hash=a5f53b…1892ed
+INFO [02-03|17:58:19] Commit new mining work                   number=26 txs=0 uncles=0 elapsed=113.37µs
+INFO [02-03|17:58:20] Successfully sealed new block            number=26 hash=45dd7e…0c3725
+INFO [02-03|17:58:20] 🔗 block reached canonical chain          number=21 hash=3d0c24…22b502
+INFO [02-03|17:58:20] 🔨 mined potential block                  number=26 hash=45dd7e…0c3725
+INFO [02-03|17:58:20] Commit new mining work                   number=27 txs=0 uncles=0 elapsed=121.698µs
+INFO [02-03|17:58:22] Successfully sealed new block            number=27 hash=147867…81dd7b
+INFO [02-03|17:58:22] 🔗 block reached canonical chain          number=22 hash=5abecd…a81346
+INFO [02-03|17:58:22] 🔨 mined potential block                  number=27 hash=147867…81dd7b
+INFO [02-03|17:58:22] Commit new mining work                   number=28 txs=0 uncles=0 elapsed=124.214µs
+INFO [02-03|17:58:22] Successfully sealed new block            number=28 hash=4abb4a…be6d23
+INFO [02-03|17:58:22] 🔗 block reached canonical chain          number=23 hash=4cfa2d…02fa0c
+INFO [02-03|17:58:22] 🔨 mined potential block                  number=28 hash=4abb4a…be6d23
+INFO [02-03|17:58:22] Commit new mining work                   number=29 txs=0 uncles=0 elapsed=108.57µs
+INFO [02-03|17:58:23] Successfully sealed new block            number=29 hash=46b790…6da7d1
+INFO [02-03|17:58:23] 🔗 block reached canonical chain          number=24 hash=db0593…d7ce29
+INFO [02-03|17:58:23] 🔨 mined potential block                  number=29 hash=46b790…6da7d1
+INFO [02-03|17:58:23] Commit new mining work                   number=30 txs=0 uncles=0 elapsed=131.169µs
+INFO [02-03|17:58:25] Successfully sealed new block            number=30 hash=d30df3…523885
+INFO [02-03|17:58:25] 🔗 block reached canonical chain          number=25 hash=a5f53b…1892ed
+INFO [02-03|17:58:25] 🔨 mined potential block                  number=30 hash=d30df3…523885
+INFO [02-03|17:58:25] Commit new mining work                   number=31 txs=0 uncles=0 elapsed=97.059µs
+INFO [02-03|17:58:27] Successfully sealed new block            number=31 hash=9c9695…50179f
+INFO [02-03|17:58:27] 🔗 block reached canonical chain          number=26 hash=45dd7e…0c3725
+INFO [02-03|17:58:27] 🔨 mined potential block                  number=31 hash=9c9695…50179f
+INFO [02-03|17:58:27] Commit new mining work                   number=32 txs=0 uncles=0 elapsed=139.528µs
+INFO [02-03|17:58:29] Successfully sealed new block            number=32 hash=c1f1ea…2154c8
+INFO [02-03|17:58:29] 🔗 block reached canonical chain          number=27 hash=147867…81dd7b
+INFO [02-03|17:58:29] 🔨 mined potential block                  number=32 hash=c1f1ea…2154c8
+INFO [02-03|17:58:29] Commit new mining work                   number=33 txs=0 uncles=0 elapsed=120.654µs
+INFO [02-03|17:58:34] Successfully sealed new block            number=33 hash=e8a23f…e48f19
+INFO [02-03|17:58:34] 🔗 block reached canonical chain          number=28 hash=4abb4a…be6d23
+INFO [02-03|17:58:34] 🔨 mined potential block                  number=33 hash=e8a23f…e48f19
+INFO [02-03|17:58:34] Commit new mining work                   number=34 txs=0 uncles=0 elapsed=676.568µs
+INFO [02-03|17:58:38] Successfully sealed new block            number=34 hash=fdc871…ea3e82
+INFO [02-03|17:58:38] 🔗 block reached canonical chain          number=29 hash=46b790…6da7d1
+INFO [02-03|17:58:38] 🔨 mined potential block                  number=34 hash=fdc871…ea3e82
+INFO [02-03|17:58:38] Commit new mining work                   number=35 txs=0 uncles=0 elapsed=117.806µs
+INFO [02-03|17:58:40] Successfully sealed new block            number=35 hash=9cc5a9…942537
+INFO [02-03|17:58:40] 🔗 block reached canonical chain          number=30 hash=d30df3…523885
+INFO [02-03|17:58:40] 🔨 mined potential block                  number=35 hash=9cc5a9…942537
+INFO [02-03|17:58:40] Commit new mining work                   number=36 txs=0 uncles=0 elapsed=107.345µs
+INFO [02-03|17:58:45] Successfully sealed new block            number=36 hash=9b9d46…d523d5
+INFO [02-03|17:58:45] 🔗 block reached canonical chain          number=31 hash=9c9695…50179f
+INFO [02-03|17:58:45] 🔨 mined potential block                  number=36 hash=9b9d46…d523d5
+INFO [02-03|17:58:45] Commit new mining work                   number=37 txs=0 uncles=0 elapsed=122.4µs
+INFO [02-03|17:58:47] Successfully sealed new block            number=37 hash=1a7e2c…2e1978
+INFO [02-03|17:58:47] 🔗 block reached canonical chain          number=32 hash=c1f1ea…2154c8
+INFO [02-03|17:58:47] 🔨 mined potential block                  number=37 hash=1a7e2c…2e1978
+INFO [02-03|17:58:47] Commit new mining work                   number=38 txs=0 uncles=0 elapsed=112.356µs
+INFO [02-03|17:58:50] Successfully sealed new block            number=38 hash=a78c02…9187cb
+INFO [02-03|17:58:50] 🔗 block reached canonical chain          number=33 hash=e8a23f…e48f19
+INFO [02-03|17:58:50] 🔨 mined potential block                  number=38 hash=a78c02…9187cb
+INFO [02-03|17:58:50] Commit new mining work                   number=39 txs=0 uncles=0 elapsed=134.812µs
+INFO [02-03|17:58:54] Successfully sealed new block            number=39 hash=ae1228…d5c609
+INFO [02-03|17:58:54] 🔗 block reached canonical chain          number=34 hash=fdc871…ea3e82
+INFO [02-03|17:58:54] 🔨 mined potential block                  number=39 hash=ae1228…d5c609
+INFO [02-03|17:58:54] Commit new mining work                   number=40 txs=0 uncles=0 elapsed=128.62µs
+INFO [02-03|17:58:54] Successfully sealed new block            number=40 hash=6ad7c3…8c33aa
+INFO [02-03|17:58:54] 🔗 block reached canonical chain          number=35 hash=9cc5a9…942537
+INFO [02-03|17:58:54] 🔨 mined potential block                  number=40 hash=6ad7c3…8c33aa
+INFO [02-03|17:58:54] Commit new mining work                   number=41 txs=0 uncles=0 elapsed=99.189µs
+INFO [02-03|17:58:57] Successfully sealed new block            number=41 hash=dc7bbc…8b2345
+INFO [02-03|17:58:57] 🔗 block reached canonical chain          number=36 hash=9b9d46…d523d5
+INFO [02-03|17:58:57] 🔨 mined potential block                  number=41 hash=dc7bbc…8b2345
+INFO [02-03|17:58:57] Commit new mining work                   number=42 txs=0 uncles=0 elapsed=94.541µs
+INFO [02-03|17:58:58] Successfully sealed new block            number=42 hash=56131b…1bd443
+INFO [02-03|17:58:58] 🔗 block reached canonical chain          number=37 hash=1a7e2c…2e1978
+INFO [02-03|17:58:58] 🔨 mined potential block                  number=42 hash=56131b…1bd443
+INFO [02-03|17:58:58] Commit new mining work                   number=43 txs=0 uncles=0 elapsed=133.321µs
+INFO [02-03|17:58:58] Successfully sealed new block            number=43 hash=e7985e…31b4ac
+INFO [02-03|17:58:58] 🔗 block reached canonical chain          number=38 hash=a78c02…9187cb
+INFO [02-03|17:58:58] 🔨 mined potential block                  number=43 hash=e7985e…31b4ac
+INFO [02-03|17:58:58] Commit new mining work                   number=44 txs=0 uncles=0 elapsed=125.63µs
+INFO [02-03|17:59:04] Successfully sealed new block            number=44 hash=801429…92f0c2
+INFO [02-03|17:59:04] 🔗 block reached canonical chain          number=39 hash=ae1228…d5c609
+INFO [02-03|17:59:04] 🔨 mined potential block                  number=44 hash=801429…92f0c2
+INFO [02-03|17:59:04] Commit new mining work                   number=45 txs=0 uncles=0 elapsed=92.26µs
+INFO [02-03|17:59:05] Successfully sealed new block            number=45 hash=41ad5a…0ccc7d
+INFO [02-03|17:59:05] 🔗 block reached canonical chain          number=40 hash=6ad7c3…8c33aa
+INFO [02-03|17:59:05] 🔨 mined potential block                  number=45 hash=41ad5a…0ccc7d
+INFO [02-03|17:59:05] Commit new mining work                   number=46 txs=0 uncles=0 elapsed=106.034µs
+INFO [02-03|17:59:07] Successfully sealed new block            number=46 hash=c6185b…3e8bf5
+INFO [02-03|17:59:07] 🔗 block reached canonical chain          number=41 hash=dc7bbc…8b2345
+INFO [02-03|17:59:07] 🔨 mined potential block                  number=46 hash=c6185b…3e8bf5
+INFO [02-03|17:59:07] Commit new mining work                   number=47 txs=0 uncles=0 elapsed=135.414µs
+INFO [02-03|17:59:08] Successfully sealed new block            number=47 hash=8b55c2…0dc6dd
+INFO [02-03|17:59:08] 🔗 block reached canonical chain          number=42 hash=56131b…1bd443
+INFO [02-03|17:59:08] 🔨 mined potential block                  number=47 hash=8b55c2…0dc6dd
+INFO [02-03|17:59:08] Commit new mining work                   number=48 txs=0 uncles=0 elapsed=104.638µs
+INFO [02-03|17:59:08] Successfully sealed new block            number=48 hash=f4887d…459244
+INFO [02-03|17:59:08] 🔗 block reached canonical chain          number=43 hash=e7985e…31b4ac
+INFO [02-03|17:59:08] 🔨 mined potential block                  number=48 hash=f4887d…459244
+INFO [02-03|17:59:08] Commit new mining work                   number=49 txs=0 uncles=0 elapsed=133.29µs
+INFO [02-03|17:59:09] Successfully sealed new block            number=49 hash=c1a9c9…347bf5
+INFO [02-03|17:59:09] 🔗 block reached canonical chain          number=44 hash=801429…92f0c2
+INFO [02-03|17:59:09] 🔨 mined potential block                  number=49 hash=c1a9c9…347bf5
+INFO [02-03|17:59:09] Commit new mining work                   number=50 txs=0 uncles=0 elapsed=123.643µs
+INFO [02-03|17:59:11] Successfully sealed new block            number=50 hash=45cdaf…a9d7fd
+INFO [02-03|17:59:11] 🔗 block reached canonical chain          number=45 hash=41ad5a…0ccc7d
+INFO [02-03|17:59:11] 🔨 mined potential block                  number=50 hash=45cdaf…a9d7fd
+INFO [02-03|17:59:11] Commit new mining work                   number=51 txs=0 uncles=0 elapsed=137.215µs
+INFO [02-03|17:59:12] Successfully sealed new block            number=51 hash=7f74b9…26fda2
+INFO [02-03|17:59:12] 🔗 block reached canonical chain          number=46 hash=c6185b…3e8bf5
+INFO [02-03|17:59:12] 🔨 mined potential block                  number=51 hash=7f74b9…26fda2
+INFO [02-03|17:59:12] Commit new mining work                   number=52 txs=0 uncles=0 elapsed=121.166µs
+INFO [02-03|17:59:12] Successfully sealed new block            number=52 hash=57522a…ea81bc
+INFO [02-03|17:59:12] 🔗 block reached canonical chain          number=47 hash=8b55c2…0dc6dd
+INFO [02-03|17:59:12] 🔨 mined potential block                  number=52 hash=57522a…ea81bc
+INFO [02-03|17:59:12] Commit new mining work                   number=53 txs=0 uncles=0 elapsed=145.397µs
+INFO [02-03|17:59:14] Successfully sealed new block            number=53 hash=af6bae…aa891b
+INFO [02-03|17:59:14] 🔗 block reached canonical chain          number=48 hash=f4887d…459244
+INFO [02-03|17:59:14] 🔨 mined potential block                  number=53 hash=af6bae…aa891b
+INFO [02-03|17:59:14] Commit new mining work                   number=54 txs=0 uncles=0 elapsed=118.848µs
+INFO [02-03|17:59:17] Successfully sealed new block            number=54 hash=6c1669…6f6637
+INFO [02-03|17:59:17] 🔗 block reached canonical chain          number=49 hash=c1a9c9…347bf5
+INFO [02-03|17:59:17] 🔨 mined potential block                  number=54 hash=6c1669…6f6637
+INFO [02-03|17:59:17] Commit new mining work                   number=55 txs=0 uncles=0 elapsed=139.365µs
+INFO [02-03|17:59:18] Successfully sealed new block            number=55 hash=556819…616ba3
+INFO [02-03|17:59:18] 🔗 block reached canonical chain          number=50 hash=45cdaf…a9d7fd
+INFO [02-03|17:59:18] 🔨 mined potential block                  number=55 hash=556819…616ba3
+INFO [02-03|17:59:18] Commit new mining work                   number=56 txs=0 uncles=0 elapsed=113.661µs
+INFO [02-03|17:59:25] Successfully sealed new block            number=56 hash=9180ad…8a6adb
+INFO [02-03|17:59:25] 🔗 block reached canonical chain          number=51 hash=7f74b9…26fda2
+INFO [02-03|17:59:25] 🔨 mined potential block                  number=56 hash=9180ad…8a6adb
+INFO [02-03|17:59:25] Commit new mining work                   number=57 txs=0 uncles=0 elapsed=129.133µs
+INFO [02-03|17:59:31] Successfully sealed new block            number=57 hash=740926…d4a904
+INFO [02-03|17:59:31] 🔗 block reached canonical chain          number=52 hash=57522a…ea81bc
+INFO [02-03|17:59:31] 🔨 mined potential block                  number=57 hash=740926…d4a904
+INFO [02-03|17:59:31] Commit new mining work                   number=58 txs=0 uncles=0 elapsed=136.824µs
+INFO [02-03|17:59:32] Successfully sealed new block            number=58 hash=41ddf9…f3bf76
+INFO [02-03|17:59:32] 🔗 block reached canonical chain          number=53 hash=af6bae…aa891b
+INFO [02-03|17:59:32] 🔨 mined potential block                  number=58 hash=41ddf9…f3bf76
+INFO [02-03|17:59:32] Commit new mining work                   number=59 txs=0 uncles=0 elapsed=136.314µs
+INFO [02-03|17:59:32] Successfully sealed new block            number=59 hash=d833ec…80913a
+INFO [02-03|17:59:32] 🔗 block reached canonical chain          number=54 hash=6c1669…6f6637
+INFO [02-03|17:59:32] 🔨 mined potential block                  number=59 hash=d833ec…80913a
+INFO [02-03|17:59:32] Commit new mining work                   number=60 txs=0 uncles=0 elapsed=120.346µs
+INFO [02-03|17:59:33] Successfully sealed new block            number=60 hash=c9b8d3…9cadb0
+INFO [02-03|17:59:33] 🔗 block reached canonical chain          number=55 hash=556819…616ba3
+INFO [02-03|17:59:33] 🔨 mined potential block                  number=60 hash=c9b8d3…9cadb0
+INFO [02-03|17:59:33] Commit new mining work                   number=61 txs=0 uncles=0 elapsed=129.492µs
+INFO [02-03|17:59:33] Successfully sealed new block            number=61 hash=84f55e…98d890
+INFO [02-03|17:59:33] 🔗 block reached canonical chain          number=56 hash=9180ad…8a6adb
+INFO [02-03|17:59:33] 🔨 mined potential block                  number=61 hash=84f55e…98d890
+INFO [02-03|17:59:33] Mining too far in the future             wait=2s
+INFO [02-03|17:59:35] Commit new mining work                   number=62 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|17:59:35] Successfully sealed new block            number=62 hash=858d40…695228
+INFO [02-03|17:59:35] 🔗 block reached canonical chain          number=57 hash=740926…d4a904
+INFO [02-03|17:59:35] 🔨 mined potential block                  number=62 hash=858d40…695228
+INFO [02-03|17:59:35] Commit new mining work                   number=63 txs=0 uncles=0 elapsed=131.099µs
+INFO [02-03|17:59:36] Successfully sealed new block            number=63 hash=5fee59…964a5d
+INFO [02-03|17:59:36] 🔗 block reached canonical chain          number=58 hash=41ddf9…f3bf76
+INFO [02-03|17:59:36] 🔨 mined potential block                  number=63 hash=5fee59…964a5d
+INFO [02-03|17:59:36] Commit new mining work                   number=64 txs=0 uncles=0 elapsed=108.497µs
+INFO [02-03|17:59:38] Successfully sealed new block            number=64 hash=112258…4522e5
+INFO [02-03|17:59:38] 🔗 block reached canonical chain          number=59 hash=d833ec…80913a
+INFO [02-03|17:59:38] 🔨 mined potential block                  number=64 hash=112258…4522e5
+INFO [02-03|17:59:38] Commit new mining work                   number=65 txs=0 uncles=0 elapsed=127.639µs
+INFO [02-03|17:59:38] Successfully sealed new block            number=65 hash=ecbc70…8ea352
+INFO [02-03|17:59:38] 🔗 block reached canonical chain          number=60 hash=c9b8d3…9cadb0
+INFO [02-03|17:59:38] 🔨 mined potential block                  number=65 hash=ecbc70…8ea352
+INFO [02-03|17:59:38] Commit new mining work                   number=66 txs=0 uncles=0 elapsed=130.681µs
+INFO [02-03|17:59:43] Successfully sealed new block            number=66 hash=f57607…988355
+INFO [02-03|17:59:43] 🔗 block reached canonical chain          number=61 hash=84f55e…98d890
+INFO [02-03|17:59:43] 🔨 mined potential block                  number=66 hash=f57607…988355
+INFO [02-03|17:59:43] Commit new mining work                   number=67 txs=0 uncles=0 elapsed=129.924µs
+INFO [02-03|17:59:43] Successfully sealed new block            number=67 hash=91f834…edc15a
+INFO [02-03|17:59:43] 🔗 block reached canonical chain          number=62 hash=858d40…695228
+INFO [02-03|17:59:43] 🔨 mined potential block                  number=67 hash=91f834…edc15a
+INFO [02-03|17:59:43] Commit new mining work                   number=68 txs=0 uncles=0 elapsed=108.585µs
+INFO [02-03|17:59:48] Successfully sealed new block            number=68 hash=296b7a…ffeae2
+INFO [02-03|17:59:48] 🔗 block reached canonical chain          number=63 hash=5fee59…964a5d
+INFO [02-03|17:59:48] 🔨 mined potential block                  number=68 hash=296b7a…ffeae2
+INFO [02-03|17:59:48] Commit new mining work                   number=69 txs=0 uncles=0 elapsed=144.464µs
+INFO [02-03|17:59:50] Successfully sealed new block            number=69 hash=38f26d…19fc6b
+INFO [02-03|17:59:50] 🔗 block reached canonical chain          number=64 hash=112258…4522e5
+INFO [02-03|17:59:50] 🔨 mined potential block                  number=69 hash=38f26d…19fc6b
+INFO [02-03|17:59:50] Commit new mining work                   number=70 txs=0 uncles=0 elapsed=107.854µs
+INFO [02-03|17:59:51] Successfully sealed new block            number=70 hash=4eae6e…f93eb9
+INFO [02-03|17:59:51] 🔗 block reached canonical chain          number=65 hash=ecbc70…8ea352
+INFO [02-03|17:59:51] 🔨 mined potential block                  number=70 hash=4eae6e…f93eb9
+INFO [02-03|17:59:51] Commit new mining work                   number=71 txs=0 uncles=0 elapsed=132.016µs
+INFO [02-03|17:59:52] Successfully sealed new block            number=71 hash=afd287…8143f9
+INFO [02-03|17:59:52] 🔗 block reached canonical chain          number=66 hash=f57607…988355
+INFO [02-03|17:59:52] 🔨 mined potential block                  number=71 hash=afd287…8143f9
+INFO [02-03|17:59:52] Commit new mining work                   number=72 txs=0 uncles=0 elapsed=128.938µs
+INFO [02-03|17:59:52] Successfully sealed new block            number=72 hash=799bea…f3be8c
+INFO [02-03|17:59:52] 🔗 block reached canonical chain          number=67 hash=91f834…edc15a
+INFO [02-03|17:59:52] 🔨 mined potential block                  number=72 hash=799bea…f3be8c
+INFO [02-03|17:59:52] Commit new mining work                   number=73 txs=0 uncles=0 elapsed=113.019µs
+INFO [02-03|17:59:56] Successfully sealed new block            number=73 hash=1ce349…fdd6ad
+INFO [02-03|17:59:56] 🔗 block reached canonical chain          number=68 hash=296b7a…ffeae2
+INFO [02-03|17:59:56] 🔨 mined potential block                  number=73 hash=1ce349…fdd6ad
+INFO [02-03|17:59:56] Commit new mining work                   number=74 txs=0 uncles=0 elapsed=235.346µs
+INFO [02-03|17:59:57] Successfully sealed new block            number=74 hash=35d0e2…117c87
+INFO [02-03|17:59:57] 🔗 block reached canonical chain          number=69 hash=38f26d…19fc6b
+INFO [02-03|17:59:57] 🔨 mined potential block                  number=74 hash=35d0e2…117c87
+INFO [02-03|17:59:57] Commit new mining work                   number=75 txs=0 uncles=0 elapsed=101.276µs
+INFO [02-03|17:59:57] Successfully sealed new block            number=75 hash=9a13e8…95e07d
+INFO [02-03|17:59:57] 🔗 block reached canonical chain          number=70 hash=4eae6e…f93eb9
+INFO [02-03|17:59:57] 🔨 mined potential block                  number=75 hash=9a13e8…95e07d
+INFO [02-03|17:59:57] Commit new mining work                   number=76 txs=0 uncles=0 elapsed=105.253µs
+INFO [02-03|17:59:59] Successfully sealed new block            number=76 hash=f44f37…f8da9a
+INFO [02-03|17:59:59] 🔗 block reached canonical chain          number=71 hash=afd287…8143f9
+INFO [02-03|17:59:59] 🔨 mined potential block                  number=76 hash=f44f37…f8da9a
+INFO [02-03|17:59:59] Commit new mining work                   number=77 txs=0 uncles=0 elapsed=162.062µs
+INFO [02-03|18:00:01] Successfully sealed new block            number=77 hash=58b1aa…3b4ad5
+INFO [02-03|18:00:01] 🔗 block reached canonical chain          number=72 hash=799bea…f3be8c
+INFO [02-03|18:00:01] 🔨 mined potential block                  number=77 hash=58b1aa…3b4ad5
+INFO [02-03|18:00:01] Commit new mining work                   number=78 txs=0 uncles=0 elapsed=107.938µs
+INFO [02-03|18:00:01] Successfully sealed new block            number=78 hash=26e315…b941b3
+INFO [02-03|18:00:01] 🔗 block reached canonical chain          number=73 hash=1ce349…fdd6ad
+INFO [02-03|18:00:01] 🔨 mined potential block                  number=78 hash=26e315…b941b3
+INFO [02-03|18:00:01] Commit new mining work                   number=79 txs=0 uncles=0 elapsed=131.37µs
+INFO [02-03|18:00:03] Successfully sealed new block            number=79 hash=6f78af…ff52ec
+INFO [02-03|18:00:03] 🔗 block reached canonical chain          number=74 hash=35d0e2…117c87
+INFO [02-03|18:00:03] 🔨 mined potential block                  number=79 hash=6f78af…ff52ec
+INFO [02-03|18:00:03] Commit new mining work                   number=80 txs=0 uncles=0 elapsed=114.077µs
+INFO [02-03|18:00:04] Successfully sealed new block            number=80 hash=14e656…f5daa1
+INFO [02-03|18:00:04] 🔗 block reached canonical chain          number=75 hash=9a13e8…95e07d
+INFO [02-03|18:00:04] 🔨 mined potential block                  number=80 hash=14e656…f5daa1
+INFO [02-03|18:00:04] Commit new mining work                   number=81 txs=0 uncles=0 elapsed=123.982µs
+INFO [02-03|18:00:06] Successfully sealed new block            number=81 hash=ada025…e4e596
+INFO [02-03|18:00:06] 🔗 block reached canonical chain          number=76 hash=f44f37…f8da9a
+INFO [02-03|18:00:06] 🔨 mined potential block                  number=81 hash=ada025…e4e596
+INFO [02-03|18:00:06] Commit new mining work                   number=82 txs=0 uncles=0 elapsed=137.739µs
+INFO [02-03|18:00:06] Successfully sealed new block            number=82 hash=09f038…7fdba1
+INFO [02-03|18:00:06] 🔗 block reached canonical chain          number=77 hash=58b1aa…3b4ad5
+INFO [02-03|18:00:06] 🔨 mined potential block                  number=82 hash=09f038…7fdba1
+INFO [02-03|18:00:06] Commit new mining work                   number=83 txs=0 uncles=0 elapsed=132.87µs
+INFO [02-03|18:00:13] Successfully sealed new block            number=83 hash=30920b…69fad5
+INFO [02-03|18:00:13] 🔗 block reached canonical chain          number=78 hash=26e315…b941b3
+INFO [02-03|18:00:13] 🔨 mined potential block                  number=83 hash=30920b…69fad5
+INFO [02-03|18:00:13] Commit new mining work                   number=84 txs=0 uncles=0 elapsed=129.506µs
+INFO [02-03|18:00:13] Successfully sealed new block            number=84 hash=256c9c…9e3323
+INFO [02-03|18:00:13] 🔗 block reached canonical chain          number=79 hash=6f78af…ff52ec
+INFO [02-03|18:00:13] 🔨 mined potential block                  number=84 hash=256c9c…9e3323
+INFO [02-03|18:00:13] Commit new mining work                   number=85 txs=0 uncles=0 elapsed=116.62µs
+INFO [02-03|18:00:15] Successfully sealed new block            number=85 hash=4744ee…17588b
+INFO [02-03|18:00:15] 🔗 block reached canonical chain          number=80 hash=14e656…f5daa1
+INFO [02-03|18:00:15] 🔨 mined potential block                  number=85 hash=4744ee…17588b
+INFO [02-03|18:00:15] Commit new mining work                   number=86 txs=0 uncles=0 elapsed=146.547µs
+INFO [02-03|18:00:15] Successfully sealed new block            number=86 hash=e59d2c…bd2964
+INFO [02-03|18:00:15] 🔗 block reached canonical chain          number=81 hash=ada025…e4e596
+INFO [02-03|18:00:15] 🔨 mined potential block                  number=86 hash=e59d2c…bd2964
+INFO [02-03|18:00:15] Commit new mining work                   number=87 txs=0 uncles=0 elapsed=138.053µs
+INFO [02-03|18:00:19] Successfully sealed new block            number=87 hash=35915b…a99f51
+INFO [02-03|18:00:19] 🔗 block reached canonical chain          number=82 hash=09f038…7fdba1
+INFO [02-03|18:00:19] 🔨 mined potential block                  number=87 hash=35915b…a99f51
+INFO [02-03|18:00:19] Commit new mining work                   number=88 txs=0 uncles=0 elapsed=128.264µs
+INFO [02-03|18:00:21] Successfully sealed new block            number=88 hash=c8b30d…965019
+INFO [02-03|18:00:21] 🔗 block reached canonical chain          number=83 hash=30920b…69fad5
+INFO [02-03|18:00:21] 🔨 mined potential block                  number=88 hash=c8b30d…965019
+INFO [02-03|18:00:21] Commit new mining work                   number=89 txs=0 uncles=0 elapsed=134.676µs
+INFO [02-03|18:00:22] Successfully sealed new block            number=89 hash=e8abe7…c639d9
+INFO [02-03|18:00:22] 🔗 block reached canonical chain          number=84 hash=256c9c…9e3323
+INFO [02-03|18:00:22] 🔨 mined potential block                  number=89 hash=e8abe7…c639d9
+INFO [02-03|18:00:22] Commit new mining work                   number=90 txs=0 uncles=0 elapsed=102.901µs
+INFO [02-03|18:00:23] Successfully sealed new block            number=90 hash=de541b…2d7bb3
+INFO [02-03|18:00:23] 🔗 block reached canonical chain          number=85 hash=4744ee…17588b
+INFO [02-03|18:00:23] 🔨 mined potential block                  number=90 hash=de541b…2d7bb3
+INFO [02-03|18:00:23] Commit new mining work                   number=91 txs=0 uncles=0 elapsed=142.772µs
+INFO [02-03|18:00:25] Successfully sealed new block            number=91 hash=e6cccf…ee6429
+INFO [02-03|18:00:25] 🔗 block reached canonical chain          number=86 hash=e59d2c…bd2964
+INFO [02-03|18:00:25] 🔨 mined potential block                  number=91 hash=e6cccf…ee6429
+INFO [02-03|18:00:25] Commit new mining work                   number=92 txs=0 uncles=0 elapsed=132.848µs
+INFO [02-03|18:00:26] Successfully sealed new block            number=92 hash=0fc09e…794ac7
+INFO [02-03|18:00:26] 🔗 block reached canonical chain          number=87 hash=35915b…a99f51
+INFO [02-03|18:00:26] 🔨 mined potential block                  number=92 hash=0fc09e…794ac7
+INFO [02-03|18:00:26] Commit new mining work                   number=93 txs=0 uncles=0 elapsed=138.235µs
+INFO [02-03|18:00:28] Successfully sealed new block            number=93 hash=9ce124…b01d9d
+INFO [02-03|18:00:28] 🔗 block reached canonical chain          number=88 hash=c8b30d…965019
+INFO [02-03|18:00:28] 🔨 mined potential block                  number=93 hash=9ce124…b01d9d
+INFO [02-03|18:00:28] Commit new mining work                   number=94 txs=0 uncles=0 elapsed=108.569µs
+INFO [02-03|18:00:33] Successfully sealed new block            number=94 hash=d68e67…5f25bd
+INFO [02-03|18:00:33] 🔗 block reached canonical chain          number=89 hash=e8abe7…c639d9
+INFO [02-03|18:00:33] 🔨 mined potential block                  number=94 hash=d68e67…5f25bd
+INFO [02-03|18:00:33] Commit new mining work                   number=95 txs=0 uncles=0 elapsed=108.839µs
+INFO [02-03|18:00:34] Successfully sealed new block            number=95 hash=47e2d8…2a6ad1
+INFO [02-03|18:00:34] 🔗 block reached canonical chain          number=90 hash=de541b…2d7bb3
+INFO [02-03|18:00:34] 🔨 mined potential block                  number=95 hash=47e2d8…2a6ad1
+INFO [02-03|18:00:34] Commit new mining work                   number=96 txs=0 uncles=0 elapsed=121.638µs
+INFO [02-03|18:00:38] Successfully sealed new block            number=96 hash=e8c254…53ecca
+INFO [02-03|18:00:38] 🔗 block reached canonical chain          number=91 hash=e6cccf…ee6429
+INFO [02-03|18:00:38] 🔨 mined potential block                  number=96 hash=e8c254…53ecca
+INFO [02-03|18:00:38] Commit new mining work                   number=97 txs=0 uncles=0 elapsed=177.388µs
+INFO [02-03|18:00:40] Successfully sealed new block            number=97 hash=cf4f0d…f15cfb
+INFO [02-03|18:00:40] 🔗 block reached canonical chain          number=92 hash=0fc09e…794ac7
+INFO [02-03|18:00:40] 🔨 mined potential block                  number=97 hash=cf4f0d…f15cfb
+INFO [02-03|18:00:40] Commit new mining work                   number=98 txs=0 uncles=0 elapsed=148.307µs
+INFO [02-03|18:00:43] Successfully sealed new block            number=98 hash=8307f7…507cc2
+INFO [02-03|18:00:43] 🔗 block reached canonical chain          number=93 hash=9ce124…b01d9d
+INFO [02-03|18:00:43] 🔨 mined potential block                  number=98 hash=8307f7…507cc2
+INFO [02-03|18:00:43] Commit new mining work                   number=99 txs=0 uncles=0 elapsed=146.353µs
+INFO [02-03|18:00:45] Successfully sealed new block            number=99 hash=ec0678…faed3c
+INFO [02-03|18:00:45] 🔗 block reached canonical chain          number=94 hash=d68e67…5f25bd
+INFO [02-03|18:00:45] 🔨 mined potential block                  number=99 hash=ec0678…faed3c
+INFO [02-03|18:00:45] Commit new mining work                   number=100 txs=0 uncles=0 elapsed=110.732µs
+INFO [02-03|18:00:46] Successfully sealed new block            number=100 hash=bf6747…10a43c
+INFO [02-03|18:00:46] 🔗 block reached canonical chain          number=95  hash=47e2d8…2a6ad1
+INFO [02-03|18:00:46] 🔨 mined potential block                  number=100 hash=bf6747…10a43c
+INFO [02-03|18:00:46] Commit new mining work                   number=101 txs=0 uncles=0 elapsed=132.585µs
+INFO [02-03|18:00:53] WebSocket endpoint closed: ws://127.0.0.1:8546 
+INFO [02-03|18:00:53] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [02-03|18:00:53] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|18:00:53] Blockchain manager stopped 
+INFO [02-03|18:00:53] Stopping Ethereum protocol 
+INFO [02-03|18:00:53] Ethereum protocol stopped 
+INFO [02-03|18:00:53] Transaction pool stopped 
+INFO [02-03|18:00:53] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+INFO [02-03|18:37:55] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|18:37:55] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+INFO [02-03|18:37:55] Initialised chain configuration          config="{ChainID: <nil> Homestead: 0 DAO: 0 DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|18:37:55] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|18:37:55] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|18:37:55] Initialising Ethereum protocol           versions="[63 62]" network=1234
+INFO [02-03|18:37:55] Loaded most recent local header          number=100 hash=bf6747…10a43c td=13420477
+INFO [02-03|18:37:55] Loaded most recent local full block      number=100 hash=bf6747…10a43c td=13420477
+INFO [02-03|18:37:55] Loaded most recent local fast block      number=100 hash=bf6747…10a43c td=13420477
+INFO [02-03|18:37:55] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|18:37:55] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [02-03|18:37:55] Blockchain not empty, fast sync disabled 
+INFO [02-03|18:37:55] Starting P2P networking 
+INFO [02-03|18:37:55] RLPx listener up                         self="enode://de2f8300f39bc88c847df099c6ac33dd738f7f72f6ea2cf600cfdf02a9d300bae975b2feec26def77b1c0cc4f7245a70967c63bc347f39e3bdf9aaaf80fbd414@[::]:30303?discport=0"
+INFO [02-03|18:37:55] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|18:37:55] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [02-03|18:37:55] WebSocket endpoint opened: ws://127.0.0.1:8546 
+INFO [02-03|18:37:56] Unlocked account                         address=0xa54680555D8C1b8803b8B8986364Eb7BD3B0cb16
+INFO [02-03|18:37:56] Transaction pool price threshold updated price=18000000000
+INFO [02-03|18:37:56] Starting mining operation 
+INFO [02-03|18:37:56] Commit new mining work                   number=101 txs=0 uncles=0 elapsed=196.7µs
+INFO [02-03|18:38:13] Successfully sealed new block            number=101 hash=165049…d5dbef
+INFO [02-03|18:38:13] 🔨 mined potential block                  number=101 hash=165049…d5dbef
+INFO [02-03|18:38:13] Commit new mining work                   number=102 txs=0 uncles=0 elapsed=134.846µs
+INFO [02-03|18:38:23] Successfully sealed new block            number=102 hash=c7134c…886937
+INFO [02-03|18:38:23] 🔨 mined potential block                  number=102 hash=c7134c…886937
+INFO [02-03|18:38:23] Commit new mining work                   number=103 txs=0 uncles=0 elapsed=109.603µs
+INFO [02-03|18:38:28] Successfully sealed new block            number=103 hash=4a9159…b387b5
+INFO [02-03|18:38:28] 🔨 mined potential block                  number=103 hash=4a9159…b387b5
+INFO [02-03|18:38:28] Commit new mining work                   number=104 txs=0 uncles=0 elapsed=126.692µs
+INFO [02-03|18:38:28] Successfully sealed new block            number=104 hash=36939d…c7ed21
+INFO [02-03|18:38:28] 🔨 mined potential block                  number=104 hash=36939d…c7ed21
+INFO [02-03|18:38:28] Commit new mining work                   number=105 txs=0 uncles=0 elapsed=122.86µs
+INFO [02-03|18:38:29] Successfully sealed new block            number=105 hash=50651e…97c56a
+INFO [02-03|18:38:29] 🔨 mined potential block                  number=105 hash=50651e…97c56a
+INFO [02-03|18:38:29] Commit new mining work                   number=106 txs=0 uncles=0 elapsed=136.687µs
+INFO [02-03|18:38:29] Successfully sealed new block            number=106 hash=c24b3a…f7dd4d
+INFO [02-03|18:38:29] 🔗 block reached canonical chain          number=101 hash=165049…d5dbef
+INFO [02-03|18:38:29] 🔨 mined potential block                  number=106 hash=c24b3a…f7dd4d
+INFO [02-03|18:38:29] Mining too far in the future             wait=2s
+INFO [02-03|18:38:31] Commit new mining work                   number=107 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|18:38:33] WebSocket endpoint closed: ws://127.0.0.1:8546 
+INFO [02-03|18:38:33] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [02-03|18:38:33] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|18:38:33] Blockchain manager stopped 
+INFO [02-03|18:38:33] Stopping Ethereum protocol 
+INFO [02-03|18:38:33] Ethereum protocol stopped 
+INFO [02-03|18:38:33] Transaction pool stopped 
+INFO [02-03|18:38:33] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+INFO [02-03|18:47:51] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|18:47:51] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+INFO [02-03|18:47:51] Initialised chain configuration          config="{ChainID: <nil> Homestead: 0 DAO: 0 DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|18:47:51] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|18:47:51] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|18:47:51] Initialising Ethereum protocol           versions="[63 62]" network=1234
+INFO [02-03|18:47:51] Loaded most recent local header          number=106 hash=c24b3a…f7dd4d td=14207293
+INFO [02-03|18:47:51] Loaded most recent local full block      number=106 hash=c24b3a…f7dd4d td=14207293
+INFO [02-03|18:47:51] Loaded most recent local fast block      number=106 hash=c24b3a…f7dd4d td=14207293
+INFO [02-03|18:47:51] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|18:47:51] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [02-03|18:47:51] Blockchain not empty, fast sync disabled 
+INFO [02-03|18:47:51] Starting P2P networking 
+INFO [02-03|18:47:51] RLPx listener up                         self="enode://de2f8300f39bc88c847df099c6ac33dd738f7f72f6ea2cf600cfdf02a9d300bae975b2feec26def77b1c0cc4f7245a70967c63bc347f39e3bdf9aaaf80fbd414@[::]:30303?discport=0"
+INFO [02-03|18:47:51] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|18:47:51] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [02-03|18:47:51] WebSocket endpoint opened: ws://127.0.0.1:8546 
+INFO [02-03|18:47:52] Unlocked account                         address=0xa54680555D8C1b8803b8B8986364Eb7BD3B0cb16
+INFO [02-03|18:47:52] Transaction pool price threshold updated price=18000000000
+INFO [02-03|18:47:52] Starting mining operation 
+INFO [02-03|18:47:52] Commit new mining work                   number=107 txs=0 uncles=0 elapsed=156.625µs
+INFO [02-03|18:47:55] Successfully sealed new block            number=107 hash=ed250a…5baf77
+INFO [02-03|18:47:55] 🔨 mined potential block                  number=107 hash=ed250a…5baf77
+INFO [02-03|18:47:55] Commit new mining work                   number=108 txs=0 uncles=0 elapsed=170.532µs
+INFO [02-03|18:47:56] Successfully sealed new block            number=108 hash=1cc1bf…a9bf03
+INFO [02-03|18:47:56] 🔨 mined potential block                  number=108 hash=1cc1bf…a9bf03
+INFO [02-03|18:47:56] Commit new mining work                   number=109 txs=0 uncles=0 elapsed=111.042µs
+INFO [02-03|18:47:56] Successfully sealed new block            number=109 hash=01fe73…6f7374
+INFO [02-03|18:47:56] 🔨 mined potential block                  number=109 hash=01fe73…6f7374
+INFO [02-03|18:47:56] Commit new mining work                   number=110 txs=0 uncles=0 elapsed=109.089µs
+INFO [02-03|18:47:56] Successfully sealed new block            number=110 hash=8a3d80…d1db9b
+INFO [02-03|18:47:56] 🔨 mined potential block                  number=110 hash=8a3d80…d1db9b
+INFO [02-03|18:47:56] Mining too far in the future             wait=2s
+INFO [02-03|18:47:58] Commit new mining work                   number=111 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|18:47:59] Successfully sealed new block            number=111 hash=e8621d…ca5a0d
+INFO [02-03|18:47:59] 🔨 mined potential block                  number=111 hash=e8621d…ca5a0d
+INFO [02-03|18:47:59] Commit new mining work                   number=112 txs=0 uncles=0 elapsed=147.053µs
+INFO [02-03|18:48:00] Successfully sealed new block            number=112 hash=274082…4ebdba
+INFO [02-03|18:48:00] 🔗 block reached canonical chain          number=107 hash=ed250a…5baf77
+INFO [02-03|18:48:00] 🔨 mined potential block                  number=112 hash=274082…4ebdba
+INFO [02-03|18:48:00] Commit new mining work                   number=113 txs=0 uncles=0 elapsed=139.48µs
+INFO [02-03|18:48:00] Successfully sealed new block            number=113 hash=07de5e…5690bc
+INFO [02-03|18:48:00] 🔗 block reached canonical chain          number=108 hash=1cc1bf…a9bf03
+INFO [02-03|18:48:00] 🔨 mined potential block                  number=113 hash=07de5e…5690bc
+INFO [02-03|18:48:00] Commit new mining work                   number=114 txs=0 uncles=0 elapsed=113.303µs
+INFO [02-03|18:48:01] Successfully sealed new block            number=114 hash=4f17a7…572c09
+INFO [02-03|18:48:01] 🔗 block reached canonical chain          number=109 hash=01fe73…6f7374
+INFO [02-03|18:48:01] 🔨 mined potential block                  number=114 hash=4f17a7…572c09
+INFO [02-03|18:48:01] Commit new mining work                   number=115 txs=0 uncles=0 elapsed=135.682µs
+INFO [02-03|18:48:01] Successfully sealed new block            number=115 hash=c32760…58c521
+INFO [02-03|18:48:01] 🔗 block reached canonical chain          number=110 hash=8a3d80…d1db9b
+INFO [02-03|18:48:01] 🔨 mined potential block                  number=115 hash=c32760…58c521
+INFO [02-03|18:48:01] Mining too far in the future             wait=2s
+INFO [02-03|18:48:03] Commit new mining work                   number=116 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|18:48:04] Successfully sealed new block            number=116 hash=5a04d0…241603
+INFO [02-03|18:48:04] 🔗 block reached canonical chain          number=111 hash=e8621d…ca5a0d
+INFO [02-03|18:48:04] 🔨 mined potential block                  number=116 hash=5a04d0…241603
+INFO [02-03|18:48:04] Commit new mining work                   number=117 txs=0 uncles=0 elapsed=143.251µs
+INFO [02-03|18:48:04] Successfully sealed new block            number=117 hash=809cc8…f10227
+INFO [02-03|18:48:04] 🔗 block reached canonical chain          number=112 hash=274082…4ebdba
+INFO [02-03|18:48:04] 🔨 mined potential block                  number=117 hash=809cc8…f10227
+INFO [02-03|18:48:04] Commit new mining work                   number=118 txs=0 uncles=0 elapsed=102.351µs
+INFO [02-03|18:48:04] Successfully sealed new block            number=118 hash=a96a7c…142727
+INFO [02-03|18:48:04] 🔗 block reached canonical chain          number=113 hash=07de5e…5690bc
+INFO [02-03|18:48:04] 🔨 mined potential block                  number=118 hash=a96a7c…142727
+INFO [02-03|18:48:04] Mining too far in the future             wait=2s
+INFO [02-03|18:48:06] Commit new mining work                   number=119 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|18:48:08] Successfully sealed new block            number=119 hash=faf81c…79f048
+INFO [02-03|18:48:08] 🔗 block reached canonical chain          number=114 hash=4f17a7…572c09
+INFO [02-03|18:48:08] 🔨 mined potential block                  number=119 hash=faf81c…79f048
+INFO [02-03|18:48:08] Commit new mining work                   number=120 txs=0 uncles=0 elapsed=143.499µs
+INFO [02-03|18:48:09] Successfully sealed new block            number=120 hash=94507d…dd53ed
+INFO [02-03|18:48:09] 🔗 block reached canonical chain          number=115 hash=c32760…58c521
+INFO [02-03|18:48:09] 🔨 mined potential block                  number=120 hash=94507d…dd53ed
+INFO [02-03|18:48:09] Commit new mining work                   number=121 txs=0 uncles=0 elapsed=173.137µs
+INFO [02-03|18:48:09] Successfully sealed new block            number=121 hash=6b21cc…da092c
+INFO [02-03|18:48:09] 🔗 block reached canonical chain          number=116 hash=5a04d0…241603
+INFO [02-03|18:48:09] 🔨 mined potential block                  number=121 hash=6b21cc…da092c
+INFO [02-03|18:48:09] Commit new mining work                   number=122 txs=0 uncles=0 elapsed=118.068µs
+INFO [02-03|18:48:09] Successfully sealed new block            number=122 hash=a627c9…7365a8
+INFO [02-03|18:48:09] 🔗 block reached canonical chain          number=117 hash=809cc8…f10227
+INFO [02-03|18:48:09] 🔨 mined potential block                  number=122 hash=a627c9…7365a8
+INFO [02-03|18:48:09] Mining too far in the future             wait=2s
+INFO [02-03|18:48:11] Commit new mining work                   number=123 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|18:48:12] Successfully sealed new block            number=123 hash=836861…4c4844
+INFO [02-03|18:48:12] 🔗 block reached canonical chain          number=118 hash=a96a7c…142727
+INFO [02-03|18:48:12] 🔨 mined potential block                  number=123 hash=836861…4c4844
+INFO [02-03|18:48:12] Commit new mining work                   number=124 txs=0 uncles=0 elapsed=140.542µs
+INFO [02-03|18:48:13] Successfully sealed new block            number=124 hash=3a0519…0f70e4
+INFO [02-03|18:48:13] 🔗 block reached canonical chain          number=119 hash=faf81c…79f048
+INFO [02-03|18:48:13] 🔨 mined potential block                  number=124 hash=3a0519…0f70e4
+INFO [02-03|18:48:13] Commit new mining work                   number=125 txs=0 uncles=0 elapsed=128.52µs
+INFO [02-03|18:48:14] Successfully sealed new block            number=125 hash=464deb…bf5d35
+INFO [02-03|18:48:14] 🔗 block reached canonical chain          number=120 hash=94507d…dd53ed
+INFO [02-03|18:48:14] 🔨 mined potential block                  number=125 hash=464deb…bf5d35
+INFO [02-03|18:48:14] Commit new mining work                   number=126 txs=0 uncles=0 elapsed=136.437µs
+INFO [02-03|18:48:14] Successfully sealed new block            number=126 hash=a03d16…656b8e
+INFO [02-03|18:48:14] 🔗 block reached canonical chain          number=121 hash=6b21cc…da092c
+INFO [02-03|18:48:14] 🔨 mined potential block                  number=126 hash=a03d16…656b8e
+INFO [02-03|18:48:14] Commit new mining work                   number=127 txs=0 uncles=0 elapsed=140.651µs
+INFO [02-03|18:48:15] Successfully sealed new block            number=127 hash=84f6c2…c49eda
+INFO [02-03|18:48:15] 🔗 block reached canonical chain          number=122 hash=a627c9…7365a8
+INFO [02-03|18:48:15] 🔨 mined potential block                  number=127 hash=84f6c2…c49eda
+INFO [02-03|18:48:15] Commit new mining work                   number=128 txs=0 uncles=0 elapsed=129.149µs
+INFO [02-03|18:48:15] Successfully sealed new block            number=128 hash=57de48…ace595
+INFO [02-03|18:48:15] 🔗 block reached canonical chain          number=123 hash=836861…4c4844
+INFO [02-03|18:48:15] 🔨 mined potential block                  number=128 hash=57de48…ace595
+INFO [02-03|18:48:15] Mining too far in the future             wait=2s
+INFO [02-03|18:48:17] Commit new mining work                   number=129 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|18:48:22] Successfully sealed new block            number=129 hash=14e034…f8b408
+INFO [02-03|18:48:22] 🔗 block reached canonical chain          number=124 hash=3a0519…0f70e4
+INFO [02-03|18:48:22] 🔨 mined potential block                  number=129 hash=14e034…f8b408
+INFO [02-03|18:48:22] Commit new mining work                   number=130 txs=0 uncles=0 elapsed=106.513µs
+INFO [02-03|18:48:24] Successfully sealed new block            number=130 hash=735dd5…30be5b
+INFO [02-03|18:48:24] 🔗 block reached canonical chain          number=125 hash=464deb…bf5d35
+INFO [02-03|18:48:24] 🔨 mined potential block                  number=130 hash=735dd5…30be5b
+INFO [02-03|18:48:24] Commit new mining work                   number=131 txs=0 uncles=0 elapsed=115.725µs
+INFO [02-03|18:48:26] Successfully sealed new block            number=131 hash=71c36e…5417e0
+INFO [02-03|18:48:26] 🔗 block reached canonical chain          number=126 hash=a03d16…656b8e
+INFO [02-03|18:48:26] 🔨 mined potential block                  number=131 hash=71c36e…5417e0
+INFO [02-03|18:48:26] Commit new mining work                   number=132 txs=0 uncles=0 elapsed=127.415µs
+INFO [02-03|18:48:27] Successfully sealed new block            number=132 hash=22520f…a205b9
+INFO [02-03|18:48:27] 🔗 block reached canonical chain          number=127 hash=84f6c2…c49eda
+INFO [02-03|18:48:27] 🔨 mined potential block                  number=132 hash=22520f…a205b9
+INFO [02-03|18:48:27] Commit new mining work                   number=133 txs=0 uncles=0 elapsed=145.325µs
+INFO [02-03|18:48:27] Successfully sealed new block            number=133 hash=0802db…b71cec
+INFO [02-03|18:48:27] 🔗 block reached canonical chain          number=128 hash=57de48…ace595
+INFO [02-03|18:48:27] 🔨 mined potential block                  number=133 hash=0802db…b71cec
+INFO [02-03|18:48:27] Commit new mining work                   number=134 txs=0 uncles=0 elapsed=122.1µs
+INFO [02-03|18:48:28] Successfully sealed new block            number=134 hash=fb6171…6da2e0
+INFO [02-03|18:48:28] 🔗 block reached canonical chain          number=129 hash=14e034…f8b408
+INFO [02-03|18:48:28] 🔨 mined potential block                  number=134 hash=fb6171…6da2e0
+INFO [02-03|18:48:28] Commit new mining work                   number=135 txs=0 uncles=0 elapsed=120.447µs
+INFO [02-03|18:48:29] Successfully sealed new block            number=135 hash=1deccd…90d1a1
+INFO [02-03|18:48:29] 🔗 block reached canonical chain          number=130 hash=735dd5…30be5b
+INFO [02-03|18:48:29] 🔨 mined potential block                  number=135 hash=1deccd…90d1a1
+INFO [02-03|18:48:29] Commit new mining work                   number=136 txs=0 uncles=0 elapsed=108.423µs
+INFO [02-03|18:48:29] Successfully sealed new block            number=136 hash=9310b9…b1f729
+INFO [02-03|18:48:29] 🔗 block reached canonical chain          number=131 hash=71c36e…5417e0
+INFO [02-03|18:48:29] 🔨 mined potential block                  number=136 hash=9310b9…b1f729
+INFO [02-03|18:48:29] Mining too far in the future             wait=2s
+INFO [02-03|18:48:31] Commit new mining work                   number=137 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|18:48:32] Successfully sealed new block            number=137 hash=edd499…138064
+INFO [02-03|18:48:32] 🔗 block reached canonical chain          number=132 hash=22520f…a205b9
+INFO [02-03|18:48:32] 🔨 mined potential block                  number=137 hash=edd499…138064
+INFO [02-03|18:48:32] Commit new mining work                   number=138 txs=0 uncles=0 elapsed=147.659µs
+INFO [02-03|18:48:34] Successfully sealed new block            number=138 hash=f4a27b…bf4467
+INFO [02-03|18:48:34] 🔗 block reached canonical chain          number=133 hash=0802db…b71cec
+INFO [02-03|18:48:34] 🔨 mined potential block                  number=138 hash=f4a27b…bf4467
+INFO [02-03|18:48:34] Commit new mining work                   number=139 txs=0 uncles=0 elapsed=123.21µs
+INFO [02-03|18:48:36] Successfully sealed new block            number=139 hash=bc9d32…c4c144
+INFO [02-03|18:48:36] 🔗 block reached canonical chain          number=134 hash=fb6171…6da2e0
+INFO [02-03|18:48:36] 🔨 mined potential block                  number=139 hash=bc9d32…c4c144
+INFO [02-03|18:48:36] Commit new mining work                   number=140 txs=0 uncles=0 elapsed=108.868µs
+INFO [02-03|18:48:38] Successfully sealed new block            number=140 hash=a2eba0…09d828
+INFO [02-03|18:48:38] 🔗 block reached canonical chain          number=135 hash=1deccd…90d1a1
+INFO [02-03|18:48:38] 🔨 mined potential block                  number=140 hash=a2eba0…09d828
+INFO [02-03|18:48:38] Commit new mining work                   number=141 txs=0 uncles=0 elapsed=130.902µs
+INFO [02-03|18:48:38] Successfully sealed new block            number=141 hash=58fe5c…117710
+INFO [02-03|18:48:38] 🔗 block reached canonical chain          number=136 hash=9310b9…b1f729
+INFO [02-03|18:48:38] 🔨 mined potential block                  number=141 hash=58fe5c…117710
+INFO [02-03|18:48:38] Commit new mining work                   number=142 txs=0 uncles=0 elapsed=115.067µs
+INFO [02-03|18:48:40] Successfully sealed new block            number=142 hash=cbc1ea…bd9d96
+INFO [02-03|18:48:40] 🔗 block reached canonical chain          number=137 hash=edd499…138064
+INFO [02-03|18:48:40] 🔨 mined potential block                  number=142 hash=cbc1ea…bd9d96
+INFO [02-03|18:48:40] Commit new mining work                   number=143 txs=0 uncles=0 elapsed=173.633µs
+INFO [02-03|18:48:41] Successfully sealed new block            number=143 hash=3f6503…834db3
+INFO [02-03|18:48:41] 🔗 block reached canonical chain          number=138 hash=f4a27b…bf4467
+INFO [02-03|18:48:41] 🔨 mined potential block                  number=143 hash=3f6503…834db3
+INFO [02-03|18:48:41] Commit new mining work                   number=144 txs=0 uncles=0 elapsed=256.572µs
+INFO [02-03|18:48:41] Successfully sealed new block            number=144 hash=17ad67…98fd42
+INFO [02-03|18:48:41] 🔗 block reached canonical chain          number=139 hash=bc9d32…c4c144
+INFO [02-03|18:48:41] 🔨 mined potential block                  number=144 hash=17ad67…98fd42
+INFO [02-03|18:48:41] Commit new mining work                   number=145 txs=0 uncles=0 elapsed=119.804µs
+INFO [02-03|18:48:42] Successfully sealed new block            number=145 hash=acf7b3…70387f
+INFO [02-03|18:48:42] 🔗 block reached canonical chain          number=140 hash=a2eba0…09d828
+INFO [02-03|18:48:42] 🔨 mined potential block                  number=145 hash=acf7b3…70387f
+INFO [02-03|18:48:42] Commit new mining work                   number=146 txs=0 uncles=0 elapsed=134.915µs
+INFO [02-03|18:48:42] Successfully sealed new block            number=146 hash=b6256c…738126
+INFO [02-03|18:48:42] 🔗 block reached canonical chain          number=141 hash=58fe5c…117710
+INFO [02-03|18:48:42] 🔨 mined potential block                  number=146 hash=b6256c…738126
+INFO [02-03|18:48:42] Mining too far in the future             wait=2s
+INFO [02-03|18:48:44] Commit new mining work                   number=147 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|18:48:45] Successfully sealed new block            number=147 hash=8febf0…0f0238
+INFO [02-03|18:48:45] 🔗 block reached canonical chain          number=142 hash=cbc1ea…bd9d96
+INFO [02-03|18:48:45] 🔨 mined potential block                  number=147 hash=8febf0…0f0238
+INFO [02-03|18:48:45] Commit new mining work                   number=148 txs=0 uncles=0 elapsed=108.914µs
+INFO [02-03|18:48:51] Successfully sealed new block            number=148 hash=223018…188b51
+INFO [02-03|18:48:51] 🔗 block reached canonical chain          number=143 hash=3f6503…834db3
+INFO [02-03|18:48:51] 🔨 mined potential block                  number=148 hash=223018…188b51
+INFO [02-03|18:48:51] Commit new mining work                   number=149 txs=0 uncles=0 elapsed=138.195µs
+INFO [02-03|18:48:53] Successfully sealed new block            number=149 hash=b9be23…7f9af8
+INFO [02-03|18:48:53] 🔗 block reached canonical chain          number=144 hash=17ad67…98fd42
+INFO [02-03|18:48:53] 🔨 mined potential block                  number=149 hash=b9be23…7f9af8
+INFO [02-03|18:48:53] Commit new mining work                   number=150 txs=0 uncles=0 elapsed=187.006µs
+INFO [02-03|18:48:54] Successfully sealed new block            number=150 hash=66e923…330c78
+INFO [02-03|18:48:54] 🔗 block reached canonical chain          number=145 hash=acf7b3…70387f
+INFO [02-03|18:48:54] 🔨 mined potential block                  number=150 hash=66e923…330c78
+INFO [02-03|18:48:54] Commit new mining work                   number=151 txs=0 uncles=0 elapsed=146.624µs
+INFO [02-03|18:48:58] Successfully sealed new block            number=151 hash=fff736…6dd288
+INFO [02-03|18:48:58] 🔗 block reached canonical chain          number=146 hash=b6256c…738126
+INFO [02-03|18:48:58] 🔨 mined potential block                  number=151 hash=fff736…6dd288
+INFO [02-03|18:48:58] Commit new mining work                   number=152 txs=0 uncles=0 elapsed=138.969µs
+INFO [02-03|18:48:58] Successfully sealed new block            number=152 hash=d8a0e5…0a5859
+INFO [02-03|18:48:58] 🔗 block reached canonical chain          number=147 hash=8febf0…0f0238
+INFO [02-03|18:48:58] 🔨 mined potential block                  number=152 hash=d8a0e5…0a5859
+INFO [02-03|18:48:58] Commit new mining work                   number=153 txs=0 uncles=0 elapsed=101.418µs
+INFO [02-03|18:49:00] Successfully sealed new block            number=153 hash=eb0286…1b86e7
+INFO [02-03|18:49:00] 🔗 block reached canonical chain          number=148 hash=223018…188b51
+INFO [02-03|18:49:00] 🔨 mined potential block                  number=153 hash=eb0286…1b86e7
+INFO [02-03|18:49:00] Commit new mining work                   number=154 txs=0 uncles=0 elapsed=107.989µs
+INFO [02-03|18:49:08] Successfully sealed new block            number=154 hash=69ef8d…68202e
+INFO [02-03|18:49:08] 🔗 block reached canonical chain          number=149 hash=b9be23…7f9af8
+INFO [02-03|18:49:08] 🔨 mined potential block                  number=154 hash=69ef8d…68202e
+INFO [02-03|18:49:08] Commit new mining work                   number=155 txs=0 uncles=0 elapsed=146.071µs
+INFO [02-03|18:49:09] Successfully sealed new block            number=155 hash=e17e9b…4a3cf2
+INFO [02-03|18:49:09] 🔗 block reached canonical chain          number=150 hash=66e923…330c78
+INFO [02-03|18:49:09] 🔨 mined potential block                  number=155 hash=e17e9b…4a3cf2
+INFO [02-03|18:49:09] Commit new mining work                   number=156 txs=0 uncles=0 elapsed=136.924µs
+INFO [02-03|18:49:09] Successfully sealed new block            number=156 hash=8d3948…3ac36f
+INFO [02-03|18:49:09] 🔗 block reached canonical chain          number=151 hash=fff736…6dd288
+INFO [02-03|18:49:09] 🔨 mined potential block                  number=156 hash=8d3948…3ac36f
+INFO [02-03|18:49:09] Commit new mining work                   number=157 txs=0 uncles=0 elapsed=135.489µs
+INFO [02-03|18:49:11] Successfully sealed new block            number=157 hash=a411f6…66778f
+INFO [02-03|18:49:11] 🔗 block reached canonical chain          number=152 hash=d8a0e5…0a5859
+INFO [02-03|18:49:11] 🔨 mined potential block                  number=157 hash=a411f6…66778f
+INFO [02-03|18:49:11] Commit new mining work                   number=158 txs=0 uncles=0 elapsed=113.44µs
+INFO [02-03|18:49:11] Successfully sealed new block            number=158 hash=0a834e…cf74d6
+INFO [02-03|18:49:11] 🔗 block reached canonical chain          number=153 hash=eb0286…1b86e7
+INFO [02-03|18:49:11] 🔨 mined potential block                  number=158 hash=0a834e…cf74d6
+INFO [02-03|18:49:11] Commit new mining work                   number=159 txs=0 uncles=0 elapsed=162.031µs
+INFO [02-03|18:49:12] Successfully sealed new block            number=159 hash=b86592…482b2c
+INFO [02-03|18:49:12] 🔗 block reached canonical chain          number=154 hash=69ef8d…68202e
+INFO [02-03|18:49:12] 🔨 mined potential block                  number=159 hash=b86592…482b2c
+INFO [02-03|18:49:12] Commit new mining work                   number=160 txs=0 uncles=0 elapsed=111.089µs
+INFO [02-03|18:49:14] Successfully sealed new block            number=160 hash=58f2b8…76a421
+INFO [02-03|18:49:14] 🔗 block reached canonical chain          number=155 hash=e17e9b…4a3cf2
+INFO [02-03|18:49:14] 🔨 mined potential block                  number=160 hash=58f2b8…76a421
+INFO [02-03|18:49:14] Commit new mining work                   number=161 txs=0 uncles=0 elapsed=140.975µs
+INFO [02-03|18:49:14] Successfully sealed new block            number=161 hash=4f04cc…7d98c7
+INFO [02-03|18:49:14] 🔗 block reached canonical chain          number=156 hash=8d3948…3ac36f
+INFO [02-03|18:49:14] 🔨 mined potential block                  number=161 hash=4f04cc…7d98c7
+INFO [02-03|18:49:14] Commit new mining work                   number=162 txs=0 uncles=0 elapsed=138.01µs
+INFO [02-03|18:49:18] Successfully sealed new block            number=162 hash=9798f4…166731
+INFO [02-03|18:49:18] 🔗 block reached canonical chain          number=157 hash=a411f6…66778f
+INFO [02-03|18:49:18] 🔨 mined potential block                  number=162 hash=9798f4…166731
+INFO [02-03|18:49:18] Commit new mining work                   number=163 txs=0 uncles=0 elapsed=116.537µs
+INFO [02-03|18:49:19] Successfully sealed new block            number=163 hash=32af22…111e51
+INFO [02-03|18:49:19] 🔗 block reached canonical chain          number=158 hash=0a834e…cf74d6
+INFO [02-03|18:49:19] 🔨 mined potential block                  number=163 hash=32af22…111e51
+INFO [02-03|18:49:19] Commit new mining work                   number=164 txs=0 uncles=0 elapsed=102.28µs
+INFO [02-03|18:49:21] Successfully sealed new block            number=164 hash=0f8be6…fbee1e
+INFO [02-03|18:49:21] 🔗 block reached canonical chain          number=159 hash=b86592…482b2c
+INFO [02-03|18:49:21] 🔨 mined potential block                  number=164 hash=0f8be6…fbee1e
+INFO [02-03|18:49:21] Commit new mining work                   number=165 txs=0 uncles=0 elapsed=121.63µs
+INFO [02-03|18:49:25] Successfully sealed new block            number=165 hash=aee0af…e8de77
+INFO [02-03|18:49:25] 🔗 block reached canonical chain          number=160 hash=58f2b8…76a421
+INFO [02-03|18:49:25] 🔨 mined potential block                  number=165 hash=aee0af…e8de77
+INFO [02-03|18:49:25] Commit new mining work                   number=166 txs=0 uncles=0 elapsed=115.554µs
+INFO [02-03|18:49:26] Successfully sealed new block            number=166 hash=0a1ba9…203b74
+INFO [02-03|18:49:26] 🔗 block reached canonical chain          number=161 hash=4f04cc…7d98c7
+INFO [02-03|18:49:26] 🔨 mined potential block                  number=166 hash=0a1ba9…203b74
+INFO [02-03|18:49:26] Commit new mining work                   number=167 txs=0 uncles=0 elapsed=121.266µs
+INFO [02-03|18:49:30] Successfully sealed new block            number=167 hash=7a90f5…776e64
+INFO [02-03|18:49:30] 🔗 block reached canonical chain          number=162 hash=9798f4…166731
+INFO [02-03|18:49:30] 🔨 mined potential block                  number=167 hash=7a90f5…776e64
+INFO [02-03|18:49:30] Commit new mining work                   number=168 txs=0 uncles=0 elapsed=114.631µs
+INFO [02-03|18:49:33] Successfully sealed new block            number=168 hash=606d82…1aee66
+INFO [02-03|18:49:33] 🔗 block reached canonical chain          number=163 hash=32af22…111e51
+INFO [02-03|18:49:33] 🔨 mined potential block                  number=168 hash=606d82…1aee66
+INFO [02-03|18:49:33] Commit new mining work                   number=169 txs=0 uncles=0 elapsed=127.209µs
+INFO [02-03|18:49:36] Successfully sealed new block            number=169 hash=acc402…336294
+INFO [02-03|18:49:36] 🔗 block reached canonical chain          number=164 hash=0f8be6…fbee1e
+INFO [02-03|18:49:36] 🔨 mined potential block                  number=169 hash=acc402…336294
+INFO [02-03|18:49:36] Commit new mining work                   number=170 txs=0 uncles=0 elapsed=287.064µs
+INFO [02-03|18:49:36] Successfully sealed new block            number=170 hash=16f9e6…244c2f
+INFO [02-03|18:49:36] 🔗 block reached canonical chain          number=165 hash=aee0af…e8de77
+INFO [02-03|18:49:36] 🔨 mined potential block                  number=170 hash=16f9e6…244c2f
+INFO [02-03|18:49:36] Commit new mining work                   number=171 txs=0 uncles=0 elapsed=126.731µs
+INFO [02-03|18:49:40] Successfully sealed new block            number=171 hash=cd193f…1842af
+INFO [02-03|18:49:40] 🔗 block reached canonical chain          number=166 hash=0a1ba9…203b74
+INFO [02-03|18:49:40] 🔨 mined potential block                  number=171 hash=cd193f…1842af
+INFO [02-03|18:49:40] Commit new mining work                   number=172 txs=0 uncles=0 elapsed=103.66µs
+INFO [02-03|18:49:42] Successfully sealed new block            number=172 hash=c86504…7e72a8
+INFO [02-03|18:49:42] 🔗 block reached canonical chain          number=167 hash=7a90f5…776e64
+INFO [02-03|18:49:42] 🔨 mined potential block                  number=172 hash=c86504…7e72a8
+INFO [02-03|18:49:42] Commit new mining work                   number=173 txs=0 uncles=0 elapsed=125.212µs
+INFO [02-03|18:49:43] Successfully sealed new block            number=173 hash=bbb85b…bdb052
+INFO [02-03|18:49:43] 🔗 block reached canonical chain          number=168 hash=606d82…1aee66
+INFO [02-03|18:49:43] 🔨 mined potential block                  number=173 hash=bbb85b…bdb052
+INFO [02-03|18:49:43] Commit new mining work                   number=174 txs=0 uncles=0 elapsed=126.405µs
+INFO [02-03|18:49:50] Successfully sealed new block            number=174 hash=a61350…c15ef0
+INFO [02-03|18:49:50] 🔗 block reached canonical chain          number=169 hash=acc402…336294
+INFO [02-03|18:49:50] 🔨 mined potential block                  number=174 hash=a61350…c15ef0
+INFO [02-03|18:49:50] Commit new mining work                   number=175 txs=0 uncles=0 elapsed=148.017µs
+INFO [02-03|18:49:50] Successfully sealed new block            number=175 hash=0d55fe…589365
+INFO [02-03|18:49:50] 🔗 block reached canonical chain          number=170 hash=16f9e6…244c2f
+INFO [02-03|18:49:50] 🔨 mined potential block                  number=175 hash=0d55fe…589365
+INFO [02-03|18:49:50] Commit new mining work                   number=176 txs=0 uncles=0 elapsed=122.653µs
+INFO [02-03|18:49:52] Successfully sealed new block            number=176 hash=dcd65e…4edb50
+INFO [02-03|18:49:52] 🔗 block reached canonical chain          number=171 hash=cd193f…1842af
+INFO [02-03|18:49:52] 🔨 mined potential block                  number=176 hash=dcd65e…4edb50
+INFO [02-03|18:49:52] Commit new mining work                   number=177 txs=0 uncles=0 elapsed=158.979µs
+INFO [02-03|18:49:58] Successfully sealed new block            number=177 hash=22502f…856c18
+INFO [02-03|18:49:58] 🔗 block reached canonical chain          number=172 hash=c86504…7e72a8
+INFO [02-03|18:49:58] 🔨 mined potential block                  number=177 hash=22502f…856c18
+INFO [02-03|18:49:58] Commit new mining work                   number=178 txs=0 uncles=0 elapsed=107.635µs
+INFO [02-03|18:50:00] Successfully sealed new block            number=178 hash=58a398…3e5d08
+INFO [02-03|18:50:00] 🔗 block reached canonical chain          number=173 hash=bbb85b…bdb052
+INFO [02-03|18:50:00] 🔨 mined potential block                  number=178 hash=58a398…3e5d08
+INFO [02-03|18:50:00] Commit new mining work                   number=179 txs=0 uncles=0 elapsed=135.088µs
+INFO [02-03|18:50:01] Successfully sealed new block            number=179 hash=007c47…1cf330
+INFO [02-03|18:50:01] 🔗 block reached canonical chain          number=174 hash=a61350…c15ef0
+INFO [02-03|18:50:01] 🔨 mined potential block                  number=179 hash=007c47…1cf330
+INFO [02-03|18:50:01] Commit new mining work                   number=180 txs=0 uncles=0 elapsed=131.24µs
+INFO [02-03|18:50:02] Successfully sealed new block            number=180 hash=cef557…ce4b4e
+INFO [02-03|18:50:02] 🔗 block reached canonical chain          number=175 hash=0d55fe…589365
+INFO [02-03|18:50:02] 🔨 mined potential block                  number=180 hash=cef557…ce4b4e
+INFO [02-03|18:50:02] Commit new mining work                   number=181 txs=0 uncles=0 elapsed=134.399µs
+INFO [02-03|18:50:08] Successfully sealed new block            number=181 hash=84cb4f…bc81ca
+INFO [02-03|18:50:08] 🔗 block reached canonical chain          number=176 hash=dcd65e…4edb50
+INFO [02-03|18:50:08] 🔨 mined potential block                  number=181 hash=84cb4f…bc81ca
+INFO [02-03|18:50:08] Commit new mining work                   number=182 txs=0 uncles=0 elapsed=144.68µs
+INFO [02-03|18:50:08] Successfully sealed new block            number=182 hash=54f05f…5dbf13
+INFO [02-03|18:50:08] 🔗 block reached canonical chain          number=177 hash=22502f…856c18
+INFO [02-03|18:50:08] 🔨 mined potential block                  number=182 hash=54f05f…5dbf13
+INFO [02-03|18:50:08] Commit new mining work                   number=183 txs=0 uncles=0 elapsed=132.275µs
+INFO [02-03|18:50:10] Successfully sealed new block            number=183 hash=5df56a…9d7018
+INFO [02-03|18:50:10] 🔗 block reached canonical chain          number=178 hash=58a398…3e5d08
+INFO [02-03|18:50:10] 🔨 mined potential block                  number=183 hash=5df56a…9d7018
+INFO [02-03|18:50:10] Commit new mining work                   number=184 txs=0 uncles=0 elapsed=156.401µs
+INFO [02-03|18:50:10] Successfully sealed new block            number=184 hash=21b81a…9b65ef
+INFO [02-03|18:50:10] 🔗 block reached canonical chain          number=179 hash=007c47…1cf330
+INFO [02-03|18:50:10] 🔨 mined potential block                  number=184 hash=21b81a…9b65ef
+INFO [02-03|18:50:10] Commit new mining work                   number=185 txs=0 uncles=0 elapsed=138.818µs
+INFO [02-03|18:50:11] Successfully sealed new block            number=185 hash=084679…b6916a
+INFO [02-03|18:50:11] 🔗 block reached canonical chain          number=180 hash=cef557…ce4b4e
+INFO [02-03|18:50:11] 🔨 mined potential block                  number=185 hash=084679…b6916a
+INFO [02-03|18:50:11] Commit new mining work                   number=186 txs=0 uncles=0 elapsed=110.532µs
+INFO [02-03|18:50:13] Successfully sealed new block            number=186 hash=3dce15…bcab2d
+INFO [02-03|18:50:13] 🔗 block reached canonical chain          number=181 hash=84cb4f…bc81ca
+INFO [02-03|18:50:13] 🔨 mined potential block                  number=186 hash=3dce15…bcab2d
+INFO [02-03|18:50:13] Commit new mining work                   number=187 txs=0 uncles=0 elapsed=120.847µs
+INFO [02-03|18:50:13] Successfully sealed new block            number=187 hash=29c647…e35a2a
+INFO [02-03|18:50:13] 🔗 block reached canonical chain          number=182 hash=54f05f…5dbf13
+INFO [02-03|18:50:13] 🔨 mined potential block                  number=187 hash=29c647…e35a2a
+INFO [02-03|18:50:13] Commit new mining work                   number=188 txs=0 uncles=0 elapsed=112.89µs
+INFO [02-03|18:50:13] Successfully sealed new block            number=188 hash=c7e932…271d1b
+INFO [02-03|18:50:13] 🔗 block reached canonical chain          number=183 hash=5df56a…9d7018
+INFO [02-03|18:50:13] 🔨 mined potential block                  number=188 hash=c7e932…271d1b
+INFO [02-03|18:50:13] Mining too far in the future             wait=2s
+INFO [02-03|18:50:15] Commit new mining work                   number=189 txs=0 uncles=0 elapsed=2.000s
+INFO [02-03|18:50:17] Successfully sealed new block            number=189 hash=f1d056…58cd34
+INFO [02-03|18:50:17] 🔗 block reached canonical chain          number=184 hash=21b81a…9b65ef
+INFO [02-03|18:50:17] 🔨 mined potential block                  number=189 hash=f1d056…58cd34
+INFO [02-03|18:50:17] Commit new mining work                   number=190 txs=0 uncles=0 elapsed=128.029µs
+INFO [02-03|18:50:18] Successfully sealed new block            number=190 hash=fcdd09…e7465f
+INFO [02-03|18:50:18] 🔗 block reached canonical chain          number=185 hash=084679…b6916a
+INFO [02-03|18:50:18] 🔨 mined potential block                  number=190 hash=fcdd09…e7465f
+INFO [02-03|18:50:18] Commit new mining work                   number=191 txs=0 uncles=0 elapsed=116.554µs
+INFO [02-03|18:50:20] Successfully sealed new block            number=191 hash=83b119…824d2b
+INFO [02-03|18:50:20] 🔗 block reached canonical chain          number=186 hash=3dce15…bcab2d
+INFO [02-03|18:50:20] 🔨 mined potential block                  number=191 hash=83b119…824d2b
+INFO [02-03|18:50:20] Commit new mining work                   number=192 txs=0 uncles=0 elapsed=100.897µs
+INFO [02-03|18:50:21] Successfully sealed new block            number=192 hash=17aed7…89fa81
+INFO [02-03|18:50:21] 🔗 block reached canonical chain          number=187 hash=29c647…e35a2a
+INFO [02-03|18:50:21] 🔨 mined potential block                  number=192 hash=17aed7…89fa81
+INFO [02-03|18:50:21] Commit new mining work                   number=193 txs=0 uncles=0 elapsed=165.407µs
+INFO [02-03|18:50:22] Successfully sealed new block            number=193 hash=8afcd4…c5ce28
+INFO [02-03|18:50:22] 🔗 block reached canonical chain          number=188 hash=c7e932…271d1b
+INFO [02-03|18:50:22] 🔨 mined potential block                  number=193 hash=8afcd4…c5ce28
+INFO [02-03|18:50:22] Commit new mining work                   number=194 txs=0 uncles=0 elapsed=131.162µs
+INFO [02-03|18:50:23] Successfully sealed new block            number=194 hash=4b4db9…1202e8
+INFO [02-03|18:50:23] 🔗 block reached canonical chain          number=189 hash=f1d056…58cd34
+INFO [02-03|18:50:23] 🔨 mined potential block                  number=194 hash=4b4db9…1202e8
+INFO [02-03|18:50:23] Commit new mining work                   number=195 txs=0 uncles=0 elapsed=116.214µs
+INFO [02-03|18:50:28] Successfully sealed new block            number=195 hash=eb7c69…110a18
+INFO [02-03|18:50:28] 🔗 block reached canonical chain          number=190 hash=fcdd09…e7465f
+INFO [02-03|18:50:28] 🔨 mined potential block                  number=195 hash=eb7c69…110a18
+INFO [02-03|18:50:28] Commit new mining work                   number=196 txs=0 uncles=0 elapsed=139.08µs
+INFO [02-03|18:50:32] Successfully sealed new block            number=196 hash=1a251b…b0c252
+INFO [02-03|18:50:32] 🔗 block reached canonical chain          number=191 hash=83b119…824d2b
+INFO [02-03|18:50:32] 🔨 mined potential block                  number=196 hash=1a251b…b0c252
+INFO [02-03|18:50:32] Commit new mining work                   number=197 txs=0 uncles=0 elapsed=123.024µs
+INFO [02-03|18:50:33] Successfully sealed new block            number=197 hash=9af2af…29f4f8
+INFO [02-03|18:50:33] 🔗 block reached canonical chain          number=192 hash=17aed7…89fa81
+INFO [02-03|18:50:33] 🔨 mined potential block                  number=197 hash=9af2af…29f4f8
+INFO [02-03|18:50:33] Commit new mining work                   number=198 txs=0 uncles=0 elapsed=104.088µs
+INFO [02-03|18:50:33] Successfully sealed new block            number=198 hash=8d15a1…cc2807
+INFO [02-03|18:50:33] 🔗 block reached canonical chain          number=193 hash=8afcd4…c5ce28
+INFO [02-03|18:50:33] 🔨 mined potential block                  number=198 hash=8d15a1…cc2807
+INFO [02-03|18:50:33] Commit new mining work                   number=199 txs=0 uncles=0 elapsed=139.553µs
+INFO [02-03|18:50:34] WebSocket endpoint closed: ws://127.0.0.1:8546 
+INFO [02-03|18:50:34] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [02-03|18:50:34] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|18:50:34] Blockchain manager stopped 
+INFO [02-03|18:50:34] Stopping Ethereum protocol 
+INFO [02-03|18:50:34] Ethereum protocol stopped 
+INFO [02-03|18:50:34] Transaction pool stopped 
+INFO [02-03|18:50:34] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+INFO [02-03|18:55:46] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|18:55:46] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+INFO [02-03|18:55:46] Initialised chain configuration          config="{ChainID: <nil> Homestead: 0 DAO: 0 DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|18:55:46] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|18:55:46] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|18:55:46] Initialising Ethereum protocol           versions="[63 62]" network=1234
+INFO [02-03|18:55:46] Loaded most recent local header          number=198 hash=8d15a1…cc2807 td=26535969
+INFO [02-03|18:55:46] Loaded most recent local full block      number=198 hash=8d15a1…cc2807 td=26535969
+INFO [02-03|18:55:46] Loaded most recent local fast block      number=198 hash=8d15a1…cc2807 td=26535969
+INFO [02-03|18:55:46] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|18:55:46] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [02-03|18:55:46] Blockchain not empty, fast sync disabled 
+INFO [02-03|18:55:46] Starting P2P networking 
+INFO [02-03|18:55:46] RLPx listener up                         self="enode://de2f8300f39bc88c847df099c6ac33dd738f7f72f6ea2cf600cfdf02a9d300bae975b2feec26def77b1c0cc4f7245a70967c63bc347f39e3bdf9aaaf80fbd414@[::]:30303?discport=0"
+INFO [02-03|19:03:01] Blockchain manager stopped 
+INFO [02-03|19:03:01] Stopping Ethereum protocol 
+INFO [02-03|19:03:01] Ethereum protocol stopped 
+INFO [02-03|19:03:01] Transaction pool stopped 
+INFO [02-03|19:03:01] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+INFO [02-03|19:03:02] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|19:03:02] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+INFO [02-03|19:03:02] Initialised chain configuration          config="{ChainID: <nil> Homestead: 0 DAO: 0 DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|19:03:02] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|19:03:02] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|19:03:02] Initialising Ethereum protocol           versions="[63 62]" network=1234
+INFO [02-03|19:03:02] Loaded most recent local header          number=198 hash=8d15a1…cc2807 td=26535969
+INFO [02-03|19:03:02] Loaded most recent local full block      number=198 hash=8d15a1…cc2807 td=26535969
+INFO [02-03|19:03:02] Loaded most recent local fast block      number=198 hash=8d15a1…cc2807 td=26535969
+INFO [02-03|19:03:02] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|19:03:02] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [02-03|19:03:02] Blockchain not empty, fast sync disabled 
+INFO [02-03|19:03:02] Starting P2P networking 
+INFO [02-03|19:03:02] RLPx listener up                         self="enode://de2f8300f39bc88c847df099c6ac33dd738f7f72f6ea2cf600cfdf02a9d300bae975b2feec26def77b1c0cc4f7245a70967c63bc347f39e3bdf9aaaf80fbd414@[::]:30303?discport=0"
+INFO [02-03|19:08:41] Blockchain manager stopped 
+INFO [02-03|19:08:41] Stopping Ethereum protocol 
+INFO [02-03|19:08:41] Ethereum protocol stopped 
+INFO [02-03|19:08:41] Transaction pool stopped 
+INFO [02-03|19:08:41] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+WARN [02-03|19:10:10] No etherbase set and no accounts found as default 
+INFO [02-03|19:10:10] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|19:10:10] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+WARN [02-03|19:10:10] Upgrading database to use lookup entries 
+INFO [02-03|19:10:10] Initialised chain configuration          config="{ChainID: <nil> Homestead: 0 DAO: 0 DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|19:10:10] Database deduplication successful        deduped=0
+INFO [02-03|19:10:10] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|19:10:10] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|19:10:10] Initialising Ethereum protocol           versions="[63 62]" network=1456214
+INFO [02-03|19:10:10] Loaded most recent local header          number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:10:10] Loaded most recent local full block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:10:10] Loaded most recent local fast block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:10:10] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-03|19:10:10] Starting P2P networking 
+INFO [02-03|19:10:10] RLPx listener up                         self="enode://78ebbe202884db7d3a129ff2c55be9c64b1be50de57d463724b1b2870bfd70596a6669c7ef8844d48620f87cc2982b0888e37664643ec4e0ce5d9167e7f6a96e@[::]:30303?discport=0"
+INFO [02-03|19:10:30] Blockchain manager stopped 
+INFO [02-03|19:10:30] Stopping Ethereum protocol 
+INFO [02-03|19:10:30] Ethereum protocol stopped 
+INFO [02-03|19:10:30] Transaction pool stopped 
+INFO [02-03|19:10:30] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+WARN [02-03|19:18:52] No etherbase set and no accounts found as default 
+INFO [02-03|19:18:52] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|19:18:52] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+INFO [02-03|19:18:52] Initialised chain configuration          config="{ChainID: <nil> Homestead: 0 DAO: 0 DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|19:18:52] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|19:18:52] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|19:18:52] Initialising Ethereum protocol           versions="[63 62]" network=1
+INFO [02-03|19:18:52] Loaded most recent local header          number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:18:52] Loaded most recent local full block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:18:52] Loaded most recent local fast block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:18:52] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|19:18:52] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-03|19:18:52] Starting P2P networking 
+INFO [02-03|19:18:52] RLPx listener up                         self="enode://78ebbe202884db7d3a129ff2c55be9c64b1be50de57d463724b1b2870bfd70596a6669c7ef8844d48620f87cc2982b0888e37664643ec4e0ce5d9167e7f6a96e@[::]:30303?discport=0"
+INFO [02-03|19:18:52] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|19:28:39] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|19:28:39] Blockchain manager stopped 
+INFO [02-03|19:28:39] Stopping Ethereum protocol 
+INFO [02-03|19:28:39] Ethereum protocol stopped 
+INFO [02-03|19:28:39] Transaction pool stopped 
+INFO [02-03|19:28:39] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+WARN [02-03|19:28:41] No etherbase set and no accounts found as default 
+INFO [02-03|19:28:41] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|19:28:41] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+INFO [02-03|19:28:42] Initialised chain configuration          config="{ChainID: <nil> Homestead: 0 DAO: 0 DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|19:28:42] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|19:28:42] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|19:28:42] Initialising Ethereum protocol           versions="[63 62]" network=346372
+INFO [02-03|19:28:42] Loaded most recent local header          number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:28:42] Loaded most recent local full block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:28:42] Loaded most recent local fast block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:28:42] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|19:28:42] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-03|19:28:42] Starting P2P networking 
+INFO [02-03|19:28:42] RLPx listener up                         self="enode://78ebbe202884db7d3a129ff2c55be9c64b1be50de57d463724b1b2870bfd70596a6669c7ef8844d48620f87cc2982b0888e37664643ec4e0ce5d9167e7f6a96e@[::]:30303?discport=0"
+INFO [02-03|19:28:42] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|19:30:43] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|19:30:43] Blockchain manager stopped 
+INFO [02-03|19:30:43] Stopping Ethereum protocol 
+INFO [02-03|19:30:43] Ethereum protocol stopped 
+INFO [02-03|19:30:43] Transaction pool stopped 
+INFO [02-03|19:30:43] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+WARN [02-03|19:30:48] No etherbase set and no accounts found as default 
+INFO [02-03|19:30:48] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|19:30:48] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+WARN [02-03|19:30:48] Upgrading database to use lookup entries 
+INFO [02-03|19:30:48] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|19:30:48] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|19:30:48] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|19:30:48] Initialising Ethereum protocol           versions="[63 62]" network=346372
+INFO [02-03|19:30:48] Database deduplication successful        deduped=0
+INFO [02-03|19:30:48] Loaded most recent local header          number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:30:48] Loaded most recent local full block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:30:48] Loaded most recent local fast block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:30:48] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-03|19:30:48] Starting P2P networking 
+INFO [02-03|19:30:48] RLPx listener up                         self="enode://7ab621cde1c65ca43f0177e6c216a007f8f86667191bb2e45ffd44185b4e78c73e5dfa0ba80cb14da287d04412510c441c0549eec804af1e01c8875ae059c226@[::]:30303?discport=0"
+INFO [02-03|19:30:48] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|19:42:45] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|19:42:45] Blockchain manager stopped 
+INFO [02-03|19:42:45] Stopping Ethereum protocol 
+INFO [02-03|19:42:45] Ethereum protocol stopped 
+INFO [02-03|19:42:45] Transaction pool stopped 
+INFO [02-03|19:42:45] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+DEBUG[02-03|19:42:47] FS scan times                            list=30.833µs set=1.139µs diff=1.932µs
+WARN [02-03|19:42:47] No etherbase set and no accounts found as default 
+INFO [02-03|19:42:47] Starting peer-to-peer node               instance=Geth/node2/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|19:42:47] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=512 handles=1024
+INFO [02-03|19:42:47] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|19:42:47] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|19:42:47] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|19:42:47] Initialising Ethereum protocol           versions="[63 62]" network=346372
+INFO [02-03|19:42:47] Loaded most recent local header          number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:42:47] Loaded most recent local full block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:42:47] Loaded most recent local fast block      number=0 hash=5e1fc7…d790e0 td=131072
+DEBUG[02-03|19:42:47] Reinjecting stale transactions           count=0
+INFO [02-03|19:42:47] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|19:42:47] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[02-03|19:42:47] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-03|19:42:47] Starting P2P networking 
+DEBUG[02-03|19:42:47] InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:42:47] InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|19:42:47] InProc registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|19:42:47] InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] InProc registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|19:42:47] InProc registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:42:47] InProc registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|19:42:47] InProc registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|19:42:47] InProc registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|19:42:47] InProc registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] InProc registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] InProc registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|19:42:47] InProc registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|19:42:47] InProc registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:42:47] InProc registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|19:42:47] InProc registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|19:42:47] InProc registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|19:42:47] InProc registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|19:42:47] InProc registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:42:47] InProc registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] InProc registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] InProc registered *ethapi.PublicNetAPI under 'net' 
+DEBUG[02-03|19:42:47] IPC registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:42:47] IPC registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|19:42:47] IPC registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|19:42:47] IPC registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] IPC registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|19:42:47] IPC registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:42:47] IPC registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|19:42:47] IPC registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|19:42:47] IPC registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|19:42:47] IPC registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] IPC registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] IPC registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|19:42:47] IPC registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|19:42:47] IPC registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:42:47] IPC registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|19:42:47] IPC registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|19:42:47] IPC registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|19:42:47] IPC registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|19:42:47] IPC registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:42:47] IPC registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] IPC registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:42:47] IPC registered *ethapi.PublicNetAPI under 'net' 
+INFO [02-03|19:42:47] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+INFO [02-03|19:42:47] RLPx listener up                         self="enode://7ab621cde1c65ca43f0177e6c216a007f8f86667191bb2e45ffd44185b4e78c73e5dfa0ba80cb14da287d04412510c441c0549eec804af1e01c8875ae059c226@[::]:37837?discport=0"
+DEBUG[02-03|19:42:47] Executing EVM call finished              runtime=102.393µs
+DEBUG[02-03|19:42:47] Release oracle not found                 contract=0xFA7B9770Ca4cb04296Cac84F37736d4041251CDF
+DEBUG[02-03|19:42:49] Couldn't add port mapping                proto=tcp extport=37837 intport=37837 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[02-03|19:43:07] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-03|19:43:17] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+DEBUG[02-03|19:43:17] RPC Server shutdown initiatied 
+INFO [02-03|19:43:17] Blockchain manager stopped 
+INFO [02-03|19:43:17] Stopping Ethereum protocol 
+INFO [02-03|19:43:17] Ethereum protocol stopped 
+INFO [02-03|19:43:17] Transaction pool stopped 
+INFO [02-03|19:43:17] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+DEBUG[02-03|19:43:17] Read error                               err="accept tcp [::]:37837: use of closed network connection"
+DEBUG[02-03|19:43:17] Deleting port mapping                    proto=tcp extport=37837 intport=37837 interface="UPnP or NAT-PMP"
+DEBUG[02-03|19:43:19] FS scan times                            list=34.502µs set=911ns diff=1.956µs
+WARN [02-03|19:43:19] No etherbase set and no accounts found as default 
+INFO [02-03|19:43:19] Starting peer-to-peer node               instance=Geth/node2/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|19:43:19] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=512 handles=1024
+INFO [02-03|19:43:19] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|19:43:19] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|19:43:19] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|19:43:19] Initialising Ethereum protocol           versions="[63 62]" network=346372
+INFO [02-03|19:43:19] Loaded most recent local header          number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:43:19] Loaded most recent local full block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:43:19] Loaded most recent local fast block      number=0 hash=5e1fc7…d790e0 td=131072
+DEBUG[02-03|19:43:19] Reinjecting stale transactions           count=0
+INFO [02-03|19:43:19] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|19:43:19] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[02-03|19:43:19] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-03|19:43:19] Starting P2P networking 
+INFO [02-03|19:43:19] RLPx listener up                         self="enode://7ab621cde1c65ca43f0177e6c216a007f8f86667191bb2e45ffd44185b4e78c73e5dfa0ba80cb14da287d04412510c441c0549eec804af1e01c8875ae059c226@[::]:30303?discport=0"
+DEBUG[02-03|19:43:19] InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:43:19] InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|19:43:19] InProc registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|19:43:19] InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] InProc registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|19:43:19] InProc registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:43:19] Executing EVM call finished              runtime=127.096µs
+DEBUG[02-03|19:43:19] Release oracle not found                 contract=0xFA7B9770Ca4cb04296Cac84F37736d4041251CDF
+DEBUG[02-03|19:43:19] InProc registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|19:43:19] InProc registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|19:43:19] InProc registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|19:43:19] InProc registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] InProc registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] InProc registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|19:43:19] InProc registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|19:43:19] InProc registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:43:19] InProc registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|19:43:19] InProc registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|19:43:19] InProc registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|19:43:19] InProc registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|19:43:19] InProc registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:43:19] InProc registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] InProc registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] InProc registered *ethapi.PublicNetAPI under 'net' 
+DEBUG[02-03|19:43:19] IPC registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:43:19] IPC registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|19:43:19] IPC registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|19:43:19] IPC registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] IPC registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|19:43:19] IPC registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:43:19] IPC registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|19:43:19] IPC registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|19:43:19] IPC registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|19:43:19] IPC registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] IPC registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] IPC registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|19:43:19] IPC registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|19:43:19] IPC registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:43:19] IPC registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|19:43:19] IPC registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|19:43:19] IPC registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|19:43:19] IPC registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|19:43:19] IPC registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:43:19] IPC registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] IPC registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:43:19] IPC registered *ethapi.PublicNetAPI under 'net' 
+INFO [02-03|19:43:19] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+DEBUG[02-03|19:43:21] Couldn't add port mapping                proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[02-03|19:43:39] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|19:43:59] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|19:44:19] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|19:44:39] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|19:44:59] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-03|19:45:03] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+DEBUG[02-03|19:45:03] RPC Server shutdown initiatied 
+INFO [02-03|19:45:03] Blockchain manager stopped 
+INFO [02-03|19:45:03] Stopping Ethereum protocol 
+INFO [02-03|19:45:03] Ethereum protocol stopped 
+INFO [02-03|19:45:03] Transaction pool stopped 
+INFO [02-03|19:45:03] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+DEBUG[02-03|19:45:03] Deleting port mapping                    proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP"
+DEBUG[02-03|19:45:03] Read error                               err="accept tcp [::]:30303: use of closed network connection"
+DEBUG[02-03|19:58:22] FS scan times                            list=33.336µs set=846ns diff=1.697µs
+TRACE[02-03|19:58:22] Started watching keystore folder         path=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/keystore
+WARN [02-03|19:58:22] No etherbase set and no accounts found as default 
+INFO [02-03|19:58:22] Starting peer-to-peer node               instance=Geth/node2/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|19:58:22] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+INFO [02-03|19:58:22] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|19:58:22] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|19:58:22] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|19:58:22] Initialising Ethereum protocol           versions="[63 62]" network=346372
+INFO [02-03|19:58:22] Loaded most recent local header          number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:58:22] Loaded most recent local full block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|19:58:22] Loaded most recent local fast block      number=0 hash=5e1fc7…d790e0 td=131072
+DEBUG[02-03|19:58:22] Reinjecting stale transactions           count=0
+INFO [02-03|19:58:22] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|19:58:22] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[02-03|19:58:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-03|19:58:22] Starting P2P networking 
+INFO [02-03|19:58:22] RLPx listener up                         self="enode://7ab621cde1c65ca43f0177e6c216a007f8f86667191bb2e45ffd44185b4e78c73e5dfa0ba80cb14da287d04412510c441c0549eec804af1e01c8875ae059c226@[::]:30301?discport=0"
+DEBUG[02-03|19:58:22] InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:58:22] InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|19:58:22] Executing EVM call finished              runtime=117.636µs
+DEBUG[02-03|19:58:22] Release oracle not found                 contract=0xFA7B9770Ca4cb04296Cac84F37736d4041251CDF
+DEBUG[02-03|19:58:22] InProc registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|19:58:22] InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] InProc registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|19:58:22] InProc registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:58:22] InProc registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|19:58:22] InProc registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|19:58:22] InProc registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|19:58:22] InProc registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] InProc registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] InProc registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|19:58:22] InProc registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|19:58:22] InProc registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:58:22] InProc registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|19:58:22] InProc registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|19:58:22] InProc registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|19:58:22] InProc registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|19:58:22] InProc registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:58:22] InProc registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] InProc registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] InProc registered *ethapi.PublicNetAPI under 'net' 
+DEBUG[02-03|19:58:22] IPC registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:58:22] IPC registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|19:58:22] IPC registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|19:58:22] IPC registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] IPC registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|19:58:22] IPC registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:58:22] IPC registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|19:58:22] IPC registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|19:58:22] IPC registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|19:58:22] IPC registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] IPC registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] IPC registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|19:58:22] IPC registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|19:58:22] IPC registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|19:58:22] IPC registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|19:58:22] IPC registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|19:58:22] IPC registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|19:58:22] IPC registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|19:58:22] IPC registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|19:58:22] IPC registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] IPC registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|19:58:22] IPC registered *ethapi.PublicNetAPI under 'net' 
+INFO [02-03|19:58:22] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+TRACE[02-03|19:58:22]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"rpc_modules\",\"params\":null}"
+TRACE[02-03|19:58:22]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"admin\":\"1.0\",\"debug\":\"1.0\",\"eth\":\"1.0\",\"miner\":\"1.0\",\"net\":\"1.0\",\"personal\":\"1.0\",\"rpc\":\"1.0\",\"txpool\":\"1.0\",\"web3\":\"1.0\"}}"
+TRACE[02-03|19:58:22]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"web3_clientVersion\",\"params\":[]}"
+TRACE[02-03|19:58:22]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":2,\"result\":\"Geth/node2/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9\"}"
+TRACE[02-03|19:58:22]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"eth_coinbase\",\"params\":[]}"
+TRACE[02-03|19:58:22]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":3,\"error\":{\"code\":-32000,\"message\":\"etherbase address must be explicitly specified\"}}"
+TRACE[02-03|19:58:22]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"rpc_modules\",\"params\":null}"
+TRACE[02-03|19:58:22]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":4,\"result\":{\"admin\":\"1.0\",\"debug\":\"1.0\",\"eth\":\"1.0\",\"miner\":\"1.0\",\"net\":\"1.0\",\"personal\":\"1.0\",\"rpc\":\"1.0\",\"txpool\":\"1.0\",\"web3\":\"1.0\"}}"
+DEBUG[02-03|19:58:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|19:58:51]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"admin_addPeer\",\"params\":[\"enode://d7665c0591f816f2076bb05d219b31d6a756876b80fb9cab59e4a38b72725b5c8fd007bf953328b15a0479e07bc54c99bc4f875d5d5e5d55f5b524f51e39f5f7@59.89.80.176:30303?discport=0\"]}"
+TRACE[02-03|19:58:51]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":5,\"result\":true}"
+DEBUG[02-03|19:58:51] Adding static node                       node="enode://d7665c0591f816f2076bb05d219b31d6a756876b80fb9cab59e4a38b72725b5c8fd007bf953328b15a0479e07bc54c99bc4f875d5d5e5d55f5b524f51e39f5f7@59.89.80.176:30303?discport=0"
+TRACE[02-03|19:58:51] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30303"
+DEBUG[02-03|19:59:02] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|19:59:06] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30303" err="dial tcp 59.89.80.176:30303: i/o timeout"
+DEBUG[02-03|19:59:06] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|19:59:06] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30303"
+TRACE[02-03|19:59:06] New dial task                            task="wait for dial hist expire (29.999994925s)"
+DEBUG[02-03|19:59:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|19:59:27]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"admin_addPeer\",\"params\":[\"enode://d7665c0591f816f2076bb05d219b31d6a756876b80fb9cab59e4a38b72725b5c8fd007bf953328b15a0479e07bc54c99bc4f875d5d5e5d55f5b524f51e39f5f7@59.89.80.176:30302?discport=0\"]}"
+TRACE[02-03|19:59:27]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":6,\"result\":true}"
+DEBUG[02-03|19:59:27] Adding static node                       node="enode://d7665c0591f816f2076bb05d219b31d6a756876b80fb9cab59e4a38b72725b5c8fd007bf953328b15a0479e07bc54c99bc4f875d5d5e5d55f5b524f51e39f5f7@59.89.80.176:30302?discport=0"
+TRACE[02-03|19:59:36] Dial task done                           task="wait for dial hist expire (29.999994925s)"
+TRACE[02-03|19:59:36] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+DEBUG[02-03|19:59:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|19:59:51] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|19:59:51] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|19:59:51] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|19:59:51] New dial task                            task="wait for dial hist expire (29.999995316s)"
+DEBUG[02-03|20:00:02] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:00:21] Dial task done                           task="wait for dial hist expire (29.999995316s)"
+TRACE[02-03|20:00:21] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+DEBUG[02-03|20:00:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:00:36] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:00:36] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:00:36] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:00:36] New dial task                            task="wait for dial hist expire (29.999994588s)"
+DEBUG[02-03|20:00:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:01:02] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:01:06] Dial task done                           task="wait for dial hist expire (29.999994588s)"
+TRACE[02-03|20:01:06] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:01:21] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:01:21] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:01:21] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:01:21] New dial task                            task="wait for dial hist expire (29.999994614s)"
+DEBUG[02-03|20:01:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:01:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:01:51] Dial task done                           task="wait for dial hist expire (29.999994614s)"
+TRACE[02-03|20:01:51] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+DEBUG[02-03|20:02:02] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:02:06] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:02:06] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:02:06] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:02:06] New dial task                            task="wait for dial hist expire (29.999995433s)"
+DEBUG[02-03|20:02:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:02:36] Dial task done                           task="wait for dial hist expire (29.999995433s)"
+TRACE[02-03|20:02:36] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+DEBUG[02-03|20:02:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:02:51] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:02:51] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:02:51] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:02:51] New dial task                            task="wait for dial hist expire (29.999994854s)"
+DEBUG[02-03|20:03:02] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:03:21] Dial task done                           task="wait for dial hist expire (29.999994854s)"
+TRACE[02-03|20:03:21] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+DEBUG[02-03|20:03:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:03:36] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:03:36] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:03:36] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:03:36] New dial task                            task="wait for dial hist expire (29.999995245s)"
+DEBUG[02-03|20:03:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:04:02] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:04:06] Dial task done                           task="wait for dial hist expire (29.999995245s)"
+TRACE[02-03|20:04:06] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:04:21] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:04:21] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:04:21] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:04:21] New dial task                            task="wait for dial hist expire (29.999994712s)"
+DEBUG[02-03|20:04:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:04:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:04:51] Dial task done                           task="wait for dial hist expire (29.999994712s)"
+TRACE[02-03|20:04:51] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+DEBUG[02-03|20:05:02] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:05:06] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:05:06] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:05:06] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:05:06] New dial task                            task="wait for dial hist expire (29.999993905s)"
+DEBUG[02-03|20:05:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:05:36] Dial task done                           task="wait for dial hist expire (29.999993905s)"
+TRACE[02-03|20:05:36] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+DEBUG[02-03|20:05:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:05:51] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:05:51] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:05:51] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:05:51] New dial task                            task="wait for dial hist expire (29.999994972s)"
+DEBUG[02-03|20:06:02] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:06:21] Dial task done                           task="wait for dial hist expire (29.999994972s)"
+TRACE[02-03|20:06:21] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+DEBUG[02-03|20:06:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:06:36] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:06:36] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:06:36] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:06:36] New dial task                            task="wait for dial hist expire (29.999994906s)"
+DEBUG[02-03|20:06:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:07:02] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:07:06] Dial task done                           task="wait for dial hist expire (29.999994906s)"
+TRACE[02-03|20:07:06] New dial task                            task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:07:06]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":7,\"method\":\"admin_addPeer\",\"params\":[\"enode://d7665c0591f816f2076bb05d219b31d6a756876b80fb9cab59e4a38b72725b5c8fd007bf953328b15a0479e07bc54c99bc4f875d5d5e5d55f5b524f51e39f5f7@159.89.80.176:30302?discport=0\"]}"
+TRACE[02-03|20:07:06]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":7,\"result\":true}"
+DEBUG[02-03|20:07:06] Adding static node                       node="enode://d7665c0591f816f2076bb05d219b31d6a756876b80fb9cab59e4a38b72725b5c8fd007bf953328b15a0479e07bc54c99bc4f875d5d5e5d55f5b524f51e39f5f7@159.89.80.176:30302?discport=0"
+TRACE[02-03|20:07:18]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":8,\"method\":\"net_peerCount\",\"params\":[]}"
+TRACE[02-03|20:07:18]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":8,\"result\":\"0x0\"}"
+TRACE[02-03|20:07:21] Dial error                               task="staticdial d7665c0591f816f2 59.89.80.176:30302" err="dial tcp 59.89.80.176:30302: i/o timeout"
+DEBUG[02-03|20:07:21] Can't resolve node                       id=d7665c0591f816f2 err="discovery is disabled"
+TRACE[02-03|20:07:21] Dial task done                           task="staticdial d7665c0591f816f2 59.89.80.176:30302"
+TRACE[02-03|20:07:21] New dial task                            task="wait for dial hist expire (29.999993144s)"
+DEBUG[02-03|20:07:22] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:07:42] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-03|20:07:44] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+DEBUG[02-03|20:07:44] RPC Server shutdown initiatied 
+INFO [02-03|20:07:44] Blockchain manager stopped 
+INFO [02-03|20:07:44] Stopping Ethereum protocol 
+INFO [02-03|20:07:44] Ethereum protocol stopped 
+INFO [02-03|20:07:44] Transaction pool stopped 
+INFO [02-03|20:07:44] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+TRACE[02-03|20:07:44] P2P networking is spinning down 
+DEBUG[02-03|20:07:44] Read error                               err="accept tcp [::]:30301: use of closed network connection"
+DEBUG[02-03|20:14:06] FS scan times                            list=28.624µs set=847ns diff=1.771µs
+TRACE[02-03|20:14:06] Started watching keystore folder         path=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/keystore
+WARN [02-03|20:14:06] No etherbase set and no accounts found as default 
+INFO [02-03|20:14:06] Starting peer-to-peer node               instance=Geth/node2/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|20:14:06] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+WARN [02-03|20:14:06] Upgrading database to use lookup entries 
+INFO [02-03|20:14:06] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|20:14:06] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|20:14:06] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|20:14:06] Initialising Ethereum protocol           versions="[63 62]" network=346372
+INFO [02-03|20:14:06] Database deduplication successful        deduped=0
+INFO [02-03|20:14:06] Loaded most recent local header          number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|20:14:06] Loaded most recent local full block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|20:14:06] Loaded most recent local fast block      number=0 hash=5e1fc7…d790e0 td=131072
+DEBUG[02-03|20:14:06] Reinjecting stale transactions           count=0
+INFO [02-03|20:14:06] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[02-03|20:14:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-03|20:14:06] Starting P2P networking 
+INFO [02-03|20:14:06] RLPx listener up                         self="enode://06f75537f5a1ec864d73da639a4ecee1cc1c538c613590ebec68bdfa7c55ff2ac59df1d24050da80bf87107fe4133366227c66a839e85918857b04fff4c40fad@[::]:30301?discport=0"
+DEBUG[02-03|20:14:06] InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|20:14:06] InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|20:14:06] Executing EVM call finished              runtime=103.937µs
+DEBUG[02-03|20:14:06] Release oracle not found                 contract=0xFA7B9770Ca4cb04296Cac84F37736d4041251CDF
+DEBUG[02-03|20:14:06] InProc registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|20:14:06] InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] InProc registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|20:14:06] InProc registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|20:14:06] InProc registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|20:14:06] InProc registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|20:14:06] InProc registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|20:14:06] InProc registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] InProc registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] InProc registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|20:14:06] InProc registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|20:14:06] InProc registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|20:14:06] InProc registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|20:14:06] InProc registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|20:14:06] InProc registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|20:14:06] InProc registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|20:14:06] InProc registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|20:14:06] InProc registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] InProc registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] InProc registered *ethapi.PublicNetAPI under 'net' 
+DEBUG[02-03|20:14:06] IPC registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|20:14:06] IPC registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|20:14:06] IPC registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|20:14:06] IPC registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] IPC registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|20:14:06] IPC registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|20:14:06] IPC registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|20:14:06] IPC registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|20:14:06] IPC registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|20:14:06] IPC registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] IPC registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] IPC registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|20:14:06] IPC registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|20:14:06] IPC registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|20:14:06] IPC registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|20:14:06] IPC registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|20:14:06] IPC registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|20:14:06] IPC registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|20:14:06] IPC registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|20:14:06] IPC registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] IPC registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|20:14:06] IPC registered *ethapi.PublicNetAPI under 'net' 
+INFO [02-03|20:14:06] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+TRACE[02-03|20:14:06]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"rpc_modules\",\"params\":null}"
+TRACE[02-03|20:14:06]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"admin\":\"1.0\",\"debug\":\"1.0\",\"eth\":\"1.0\",\"miner\":\"1.0\",\"net\":\"1.0\",\"personal\":\"1.0\",\"rpc\":\"1.0\",\"txpool\":\"1.0\",\"web3\":\"1.0\"}}"
+TRACE[02-03|20:14:06]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"web3_clientVersion\",\"params\":[]}"
+TRACE[02-03|20:14:06]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":2,\"result\":\"Geth/node2/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9\"}"
+TRACE[02-03|20:14:06]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"eth_coinbase\",\"params\":[]}"
+TRACE[02-03|20:14:06]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":3,\"error\":{\"code\":-32000,\"message\":\"etherbase address must be explicitly specified\"}}"
+TRACE[02-03|20:14:06]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"rpc_modules\",\"params\":null}"
+TRACE[02-03|20:14:06]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":4,\"result\":{\"admin\":\"1.0\",\"debug\":\"1.0\",\"eth\":\"1.0\",\"miner\":\"1.0\",\"net\":\"1.0\",\"personal\":\"1.0\",\"rpc\":\"1.0\",\"txpool\":\"1.0\",\"web3\":\"1.0\"}}"
+DEBUG[02-03|20:14:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:14:33]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"admin_addPeer\",\"params\":[\"enode://6262793720579d5093b58aeb41ddbd88715c4dea0d5b935a6b2f13707d04c8cf7dd5cdf29a135b8d02ec7d320541b6e977b7e3c5db132e887eeecf1b2f662542@159.89.80.176:30302?discport=0\"]}"
+TRACE[02-03|20:14:33]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":5,\"result\":true}"
+DEBUG[02-03|20:14:33] Adding static node                       node="enode://6262793720579d5093b58aeb41ddbd88715c4dea0d5b935a6b2f13707d04c8cf7dd5cdf29a135b8d02ec7d320541b6e977b7e3c5db132e887eeecf1b2f662542@159.89.80.176:30302?discport=0"
+TRACE[02-03|20:14:33] New dial task                            task="staticdial 6262793720579d50 159.89.80.176:30302"
+DEBUG[02-03|20:14:33] Adding p2p peer                          id=6262793720579d50 name=Geth/v1.7.3-stable-4... addr=159.89.80.176:30302 peers=1
+TRACE[02-03|20:14:33] Dial task done                           task="staticdial 6262793720579d50 159.89.80.176:30302"
+TRACE[02-03|20:14:33] New dial task                            task="wait for dial hist expire (29.999996882s)"
+TRACE[02-03|20:14:33] Starting protocol eth/63                 id=6262793720579d50 conn=staticdial
+DEBUG[02-03|20:14:33] Ethereum peer connected                  id=6262793720579d50 conn=staticdial name=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+TRACE[02-03|20:14:33] Registering sync peer                    peer=6262793720579d50
+DEBUG[02-03|20:14:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:15:03] Dial task done                           task="wait for dial hist expire (29.999996882s)"
+DEBUG[02-03|20:15:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:15:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:15:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:16:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:16:19]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"admin_peers\",\"params\":[]}"
+TRACE[02-03|20:16:19]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":6,\"result\":[{\"id\":\"6262793720579d5093b58aeb41ddbd88715c4dea0d5b935a6b2f13707d04c8cf7dd5cdf29a135b8d02ec7d320541b6e977b7e3c5db132e887eeecf1b2f662542\",\"name\":\"Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9\",\"caps\":[\"eth/63\"],\"network\":{\"localAddress\":\"192.168.0.11:56700\",\"remoteAddress\":\"159.89.80.176:30302\"},\"protocols\":{\"eth\":{\"version\":63,\"difficulty\":131072,\"head\":\"0x5e1fc79cb4ffa4739177b5408045cd5d51c6cf766133f23f7cd72ee1f8d790e0\"}}}]}"
+DEBUG[02-03|20:16:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:16:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:17:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:17:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:17:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:18:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:18:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:18:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:19:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:19:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:19:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:20:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:20:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:20:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:21:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:21:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:21:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:22:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:22:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:22:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:23:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:23:26] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:23:46] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:24:06] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-03|20:24:15] IPC endpoint closed: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+DEBUG[02-03|20:24:15] RPC Server shutdown initiatied 
+INFO [02-03|20:24:15] Blockchain manager stopped 
+INFO [02-03|20:24:15] Stopping Ethereum protocol 
+DEBUG[02-03|20:24:15] Ethereum message handling failed         id=6262793720579d50 conn=staticdial err=EOF
+DEBUG[02-03|20:24:15] Removing Ethereum peer                   peer=6262793720579d50
+TRACE[02-03|20:24:15] Unregistering sync peer                  peer=6262793720579d50
+DEBUG[02-03|20:24:15] Removing p2p peer                        id=6262793720579d50 conn=staticdial duration=9m41.419s peers=0 req=false err="client quitting"
+TRACE[02-03|20:24:15] New dial task                            task="staticdial 6262793720579d50 159.89.80.176:30302"
+INFO [02-03|20:24:15] Ethereum protocol stopped 
+INFO [02-03|20:24:15] Transaction pool stopped 
+INFO [02-03|20:24:15] Database closed                          database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata
+TRACE[02-03|20:24:15] P2P networking is spinning down 
+DEBUG[02-03|20:24:15] Read error                               err="accept tcp [::]:30301: use of closed network connection"
+DEBUG[02-03|20:24:17] FS scan times                            list=35.241µs set=1.018µs diff=1.944µs
+TRACE[02-03|20:24:17] Started watching keystore folder         path=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/keystore
+WARN [02-03|20:24:17] No etherbase set and no accounts found as default 
+INFO [02-03|20:24:17] Starting peer-to-peer node               instance=Geth/node2/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-03|20:24:17] Allocated cache and file handles         database=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/chaindata cache=128 handles=1024
+INFO [02-03|20:24:17] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [02-03|20:24:17] Disk storage enabled for ethash caches   dir=/home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth/ethash count=3
+INFO [02-03|20:24:17] Disk storage enabled for ethash DAGs     dir=/home/harpangell/.ethash                                                                  count=2
+INFO [02-03|20:24:17] Initialising Ethereum protocol           versions="[63 62]" network=346372
+INFO [02-03|20:24:17] Loaded most recent local header          number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|20:24:17] Loaded most recent local full block      number=0 hash=5e1fc7…d790e0 td=131072
+INFO [02-03|20:24:17] Loaded most recent local fast block      number=0 hash=5e1fc7…d790e0 td=131072
+DEBUG[02-03|20:24:17] Reinjecting stale transactions           count=0
+INFO [02-03|20:24:17] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-03|20:24:17] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[02-03|20:24:17] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-03|20:24:17] Starting P2P networking 
+INFO [02-03|20:24:17] RLPx listener up                         self="enode://06f75537f5a1ec864d73da639a4ecee1cc1c538c613590ebec68bdfa7c55ff2ac59df1d24050da80bf87107fe4133366227c66a839e85918857b04fff4c40fad@[::]:30301?discport=0"
+DEBUG[02-03|20:24:17] InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|20:24:17] InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|20:24:17] InProc registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|20:24:17] InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] InProc registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|20:24:17] Executing EVM call finished              runtime=215.618µs
+DEBUG[02-03|20:24:17] InProc registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|20:24:17] Release oracle not found                 contract=0xFA7B9770Ca4cb04296Cac84F37736d4041251CDF
+DEBUG[02-03|20:24:17] InProc registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|20:24:17] InProc registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|20:24:17] InProc registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|20:24:17] InProc registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] InProc registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] InProc registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|20:24:17] InProc registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|20:24:17] InProc registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|20:24:17] InProc registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|20:24:17] InProc registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|20:24:17] InProc registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|20:24:17] InProc registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|20:24:17] InProc registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|20:24:17] InProc registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] InProc registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] InProc registered *ethapi.PublicNetAPI under 'net' 
+DEBUG[02-03|20:24:17] IPC registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|20:24:17] IPC registered *node.PublicAdminAPI under 'admin' 
+DEBUG[02-03|20:24:17] IPC registered *debug.HandlerT under 'debug' 
+DEBUG[02-03|20:24:17] IPC registered *node.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] IPC registered *node.PublicWeb3API under 'web3' 
+DEBUG[02-03|20:24:17] IPC registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|20:24:17] IPC registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[02-03|20:24:17] IPC registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[02-03|20:24:17] IPC registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[02-03|20:24:17] IPC registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] IPC registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] IPC registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[02-03|20:24:17] IPC registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[02-03|20:24:17] IPC registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[02-03|20:24:17] IPC registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[02-03|20:24:17] IPC registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[02-03|20:24:17] IPC registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[02-03|20:24:17] IPC registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[02-03|20:24:17] IPC registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[02-03|20:24:17] IPC registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] IPC registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[02-03|20:24:17] IPC registered *ethapi.PublicNetAPI under 'net' 
+INFO [02-03|20:24:17] IPC endpoint opened: /home/harpangell/PycharmProjects/samy/samy_ethereum/chains/samynet/chain_data/geth.ipc 
+TRACE[02-03|20:24:17]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"rpc_modules\",\"params\":null}"
+TRACE[02-03|20:24:17]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"admin\":\"1.0\",\"debug\":\"1.0\",\"eth\":\"1.0\",\"miner\":\"1.0\",\"net\":\"1.0\",\"personal\":\"1.0\",\"rpc\":\"1.0\",\"txpool\":\"1.0\",\"web3\":\"1.0\"}}"
+TRACE[02-03|20:24:17]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"web3_clientVersion\",\"params\":[]}"
+TRACE[02-03|20:24:17]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":2,\"result\":\"Geth/node2/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9\"}"
+TRACE[02-03|20:24:17]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"eth_coinbase\",\"params\":[]}"
+TRACE[02-03|20:24:17]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":3,\"error\":{\"code\":-32000,\"message\":\"etherbase address must be explicitly specified\"}}"
+TRACE[02-03|20:24:17]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"rpc_modules\",\"params\":null}"
+TRACE[02-03|20:24:17]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":4,\"result\":{\"admin\":\"1.0\",\"debug\":\"1.0\",\"eth\":\"1.0\",\"miner\":\"1.0\",\"net\":\"1.0\",\"personal\":\"1.0\",\"rpc\":\"1.0\",\"txpool\":\"1.0\",\"web3\":\"1.0\"}}"
+TRACE[02-03|20:24:20]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"admin_peers\",\"params\":[]}"
+TRACE[02-03|20:24:20]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":5,\"result\":[]}"
+TRACE[02-03|20:24:22]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"admin_addPeer\",\"params\":[\"enode://6262793720579d5093b58aeb41ddbd88715c4dea0d5b935a6b2f13707d04c8cf7dd5cdf29a135b8d02ec7d320541b6e977b7e3c5db132e887eeecf1b2f662542@159.89.80.176:30302?discport=0\"]}"
+TRACE[02-03|20:24:22]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":6,\"result\":true}"
+DEBUG[02-03|20:24:22] Adding static node                       node="enode://6262793720579d5093b58aeb41ddbd88715c4dea0d5b935a6b2f13707d04c8cf7dd5cdf29a135b8d02ec7d320541b6e977b7e3c5db132e887eeecf1b2f662542@159.89.80.176:30302?discport=0"
+TRACE[02-03|20:24:22] New dial task                            task="staticdial 6262793720579d50 159.89.80.176:30302"
+DEBUG[02-03|20:24:22] Adding p2p peer                          id=6262793720579d50 name=Geth/v1.7.3-stable-4... addr=159.89.80.176:30302 peers=1
+TRACE[02-03|20:24:22] Dial task done                           task="staticdial 6262793720579d50 159.89.80.176:30302"
+TRACE[02-03|20:24:22] New dial task                            task="wait for dial hist expire (29.999996913s)"
+TRACE[02-03|20:24:22] Starting protocol eth/63                 id=6262793720579d50 conn=staticdial
+DEBUG[02-03|20:24:22] Ethereum peer connected                  id=6262793720579d50 conn=staticdial name=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+TRACE[02-03|20:24:22] Registering sync peer                    peer=6262793720579d50
+TRACE[02-03|20:24:23]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":7,\"method\":\"admin_peers\",\"params\":[]}"
+TRACE[02-03|20:24:23]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":7,\"result\":[{\"id\":\"6262793720579d5093b58aeb41ddbd88715c4dea0d5b935a6b2f13707d04c8cf7dd5cdf29a135b8d02ec7d320541b6e977b7e3c5db132e887eeecf1b2f662542\",\"name\":\"Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9\",\"caps\":[\"eth/63\"],\"network\":{\"localAddress\":\"192.168.0.11:56764\",\"remoteAddress\":\"159.89.80.176:30302\"},\"protocols\":{\"eth\":{\"version\":63,\"difficulty\":131072,\"head\":\"0x5e1fc79cb4ffa4739177b5408045cd5d51c6cf766133f23f7cd72ee1f8d790e0\"}}}]}"
+DEBUG[02-03|20:24:37] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-03|20:24:52] Dial task done                           task="wait for dial hist expire (29.999996913s)"
+DEBUG[02-03|20:24:57] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-03|20:25:17] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
