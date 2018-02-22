@@ -1,68 +1,60 @@
-Install Forked Web3 Repo
-
-```
-pip install -e git+git://github.com/harpangell7/web3.py.git@master#egg=web3.py
-```
-
-## Populus Test Env
-
-```
-sudo apt-get install libssl-dev
-sudo apt-get install software-properties-common
-sudo add-apt-repository -y ppa:ethereum/ethereum
-sudo apt-get update
-sudo apt-get install ethereum
-```
-### Pull Git
-
-```
-mkdir samynet
-cd samynet
-git init
-git add .
-git remote add origin https://github.com/dangell7/samy_ethereum.git
-git fetch --all
-git status
-git checkout master
-git add .
-git merge origin/denis-fb-dev
-virtualenv env
-source env/bin/activate
-pip install -U -r requirements.txt
-```
+# SAMY Public Repository
 
 
-### Local Samy Chain
+The public repository for SAMY. To view the application visit https://iamsamy.com. If you would like to contribute to this project please email denisangell@iamsamy.com. 
 
-Create Local Test Chain
+## Services
 
-```
-populus chain new samynet
-```
+SAMY has 4 core services available to the public.
 
-Init Local Test Chain
+### SamyCampaigns - Current State: Beta
 
-```
-chains/samynet/./init_chain.sh
-```
+SamyCampaigns is our free service where Brands create opportunities for Ambassadors to market the Brands products to their audience. With our unique opportunity creation process, Brands can target Ambassadors who meet their specified criteria while also aligning with their Brand message. Ambassadors then post the agreed upon content to their own profile, to reach their audience. SAMY measures each campaign with analytics from the Ambassadors social media platform, as well as the Google Analytics from the Brands website. Together, those metrics provide the most comprehensive feedback for both the Brand and Ambassador. One thing we want to focus on is getting the data into the hands of the Ambassadors, so that they can create more engaging material.
 
-Run Local Test Chain
+### SamyCreations - Current State: Beta
 
-```
-chains/samynet/./run_chain.sh
-```
+SamyCreations is our free service where Brands create opportunities for Ambassadors to upload content that would reach out to the Brands audience. The content created is then purchased,  owned and licensed by the Brand. The Brands can then upload to their social media platform, or use the content for any marketing purposes other than with Samy. Brands use our unique opportunity creation process to target Ambassadors who align with their Brand mesSAMY. Samy measures each creation posted with analytics from the Brands own social media platform, as well as Google Analytics from the Brands website. With these metrics, we are able to provide the Brand with a more defined target audience and criteria to continue creating opportunities within the Samy platform. 
 
+### SamyGeo - Current State: Developement
 
-Attach Geth to Server Test Chain
+SamyGeo is our paid service where Brands create “instant” opportunities for Ambassadors to market the Brands products to their audience for an incentive or free product. The process looks something like; Brands would create a geolocation with a specified radius around that location. When an Ambassador entered the geolocation, they would receive an opportunity notification. Upon accepting the opportunity, Ambassadors receive the incentive or free product and are required to publish an instant post to their social media platform. SAMY has coined this term, Instant-Incentive for Post or II4P. SAMY measures the same analytics for SamyGeo as SamyCreations and SAMYCamapigns to proivde the Brands and Ambassadors feedback on their results. 
 
-```
-admin.addPeer("enode://6262793720579d5093b58aeb41ddbd88715c4dea0d5b935a6b2f13707d04c8cf7dd5cdf29a135b8d02ec7d320541b6e977b7e3c5db132e887eeecf1b2f662542@159.89.80.176:30302?discport=0")
-admin.addPeer("enode://d7665c0591f816f2076bb05d219b31d6a756876b80fb9cab59e4a38b72725b5c8fd007bf953328b15a0479e07bc54c99bc4f875d5d5e5d55f5b524f51e39f5f7@159.89.80.176:30302?discport=0")
-```
+### SamyPR - Current State: Beta
 
+SamyPR is our public relations service to Brands. We gather specific information from the Brand and tailor a marketing plan unique to that Brand. We then use the SAMY services to implement the custom strategy while leveraging SAMY’s machine learning capabilities to optimize that strategy. The SAMY team has realized that although our platform is easy to use and straight forward, our team and SAMY is more knowledgeable and responsive to marketing changes. By using past SAMY Service data SAMY is also able to automatically create the most engaging opportunity for the Brand, whether that's a Creation, a Campaign or a Geo is left up to SAMY.
 
-On Server
+## Guides
 
-```
-admin.nodeInfo.enode
-```
+The guides for each of the above services can be found in the resources section of the website. https://iamsamy.com/resources/
+
+## Built With
+
+* [Ubuntu](https://www.ubuntu.com/) - 16.0.4 - The OS
+* [Django](https://www.djangoproject.com/) - 1.11.6 - The web framework used
+* [Python](https://www.python.org/download/releases/3.5.1/) - 3.5.1 - Programing Language
+* [Firebase](https://firebase.google.com/) - 4.6 - Realtime Database
+* [Firestore](https://firebase.google.com/docs/firestore/) - 4.6 - Realtime Big Data Database
+* [MongoDB](https://www.mongodb.com/) - 3.6 - Document Database
+* [Nginx](https://nginx.org/en/) - HTTP and reverse proxy server
+* [Gunicorn](https://github.com/benoitc/gunicorn) - Python WSGI HTTP Server for UNIX
+* [Redis](https://redis.io/) - In-memory Data Structure Store
+* [Celery](https://github.com/celery/celery) - Distributed Task Queue
+
+Full list in requirements.txt
+
+## Versioning
+
+SAMY - v1
+
+## Authors
+
+* **Denis Angell** - *Initial work* - [harpangell7](https://github.com/Harpangell7)
+
+## Contributors
+
+* **Stephan Savka** - *Initial work* - [n/a](https://github.com/)
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Elon Musk

@@ -8,25 +8,25 @@ from web3.contract import ConciseContract
 import time
 from datetime import datetime
 
-import redis
+#import redis
 import os
-import bcrypt
+#import bcrypt
 import uuid
-import rlp
-from ethereum.transactions import Transaction
+#import rlp
+#from ethereum.transactions import Transaction
 
-from samy_firebase import admin_db
-from samy_firebase import admin_auth
+#from samy_firebase import admin_db
+#from samy_firebase import admin_auth
 
-pool = redis.ConnectionPool(host='localhost', port=6379, db=5)
-redis_db = redis.Redis(connection_pool=pool)
+#pool = redis.ConnectionPool(host='localhost', port=6379, db=5)
+#redis_db = redis.Redis(connection_pool=pool)
 
 from ast import literal_eval
 
-# w3 = Web3(HTTPProvider('http://localhost:8545'))
-w3 = Web3(IPCProvider('chains/samy/chain_data/geth.ipc'))
+w3 = Web3(HTTPProvider('http://159.89.80.176:8102'))
+#w3 = Web3(IPCProvider('chains/samy/chain_data/geth.ipc'))
 
-print('Current BlockNumber: %s' % w3.eth.blockNumber)
+#print('Current BlockNumber: %s' % w3.eth.blockNumber)
 
 # Vidulum Contract
 # TODO
@@ -375,10 +375,10 @@ def set_prices(buy_price=None, sell_price=None):
 
 #fund_buy_sell()
 
-buy_price = .0001
-sell_price = .0001
+#buy_price = .0001
+#sell_price = .0001
 
-set_prices(buy_price=buy_price, sell_price=sell_price)
+#set_prices(buy_price=buy_price, sell_price=sell_price)
 
 
 

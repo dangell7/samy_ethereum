@@ -8,8 +8,8 @@ pragma solidity ^0.4.18;
 contract Vidulum {
 
     /*
-     *  Events
-     */
+    *  Events
+    */
 
     event Test(address sender);
     event Submission(uint indexed transactionId);
@@ -25,8 +25,8 @@ contract Vidulum {
     event RequirementChange(uint required);
 
     /*
-     *  Constants
-     */
+    *  Constants
+    */
     string pinHash;
     string state;
     bool public isFrozen = false;
@@ -34,8 +34,8 @@ contract Vidulum {
     uint constant public MAX_OWNER_COUNT = 50;
 
     /*
-     *  Storage
-     */
+    *  Storage
+    */
     mapping (uint => Transaction) public transactions;
     mapping (uint => mapping (address => bool)) public confirmations;
     mapping (address => bool) public isOwner;
@@ -52,8 +52,8 @@ contract Vidulum {
     }
 
     /*
-     *  Modifiers
-     */
+    *  Modifiers
+    */
 
     modifier activeWallet() {
         require(!isFrozen);
@@ -106,10 +106,7 @@ contract Vidulum {
     }
 
     modifier validRequirement(uint ownerCount, uint _required) {
-        require(ownerCount <= MAX_OWNER_COUNT
-            && _required <= ownerCount
-            && _required != 0
-            && ownerCount != 0);
+        require(ownerCount <= MAX_OWNER_COUNT && _required <= ownerCount && _required != 0 && ownerCount != 0);
         _;
     }
 
@@ -124,14 +121,15 @@ contract Vidulum {
     /// @dev Fallback function allows to deposit ether.
     function()
         payable
-    {
-        if (msg.value > 0)
+     public {
+        if (msg.value > 0) {
             Deposit(msg.sender, msg.value);
+        }
     }
 
     /*
-     * Public functions
-     */
+    * Public functions
+    */
     /// @dev Contract constructor sets initial owners and required number of confirmations.
     /// @param _owners List of initial owners.
     /// @param _required Number of required confirmations.
@@ -139,7 +137,7 @@ contract Vidulum {
         public
         validRequirement(_owners.length, _required)
     {
-        for (uint i=0; i<_owners.length; i++) {
+        for (uint i = 0; i<_owners.length; i++) {
             require(!isOwner[_owners[i]] && _owners[i] != 0);
             isOwner[_owners[i]] = true;
         }
@@ -174,14 +172,16 @@ contract Vidulum {
         ownerExists(owner)
     {
         isOwner[owner] = false;
-        for (uint i=0; i<owners.length - 1; i++)
+        for (uint i = 0; i<owners.length - 1; i++) {
             if (owners[i] == owner) {
                 owners[i] = owners[owners.length - 1];
                 break;
             }
+        }
         owners.length -= 1;
-        if (required > owners.length)
+        if (required > owners.length) {
             changeRequirement(owners.length);
+        }
         OwnerRemoval(owner);
     }
 
@@ -195,11 +195,12 @@ contract Vidulum {
         ownerExists(owner)
         ownerDoesNotExist(newOwner)
     {
-        for (uint i=0; i<owners.length; i++)
+        for (uint i = 0; i<owners.length; i++) {
             if (owners[i] == owner) {
                 owners[i] = newOwner;
                 break;
             }
+        }
         isOwner[owner] = false;
         isOwner[newOwner] = true;
         OwnerRemoval(owner);
@@ -259,9 +260,9 @@ contract Vidulum {
         Transaction storage txn = transactions[transactionId];
         txn.executed = true;
         PinConfirmation(msg.sender, transactionId);
-        if (txn.destination.call.value(txn.value)(txn.data))
+        if (txn.destination.call.value(txn.value)(txn.data)) {
             Execution(transactionId);
-        else {
+        } else {
             ExecutionFailure(transactionId);
             txn.executed = false;
         }
@@ -304,11 +305,13 @@ contract Vidulum {
         returns (bool)
     {
         uint count = 0;
-        for (uint i=0; i<owners.length; i++) {
-            if (confirmations[transactionId][owners[i]])
+        for (uint i = 0; i<owners.length; i++) {
+            if (confirmations[transactionId][owners[i]]) {
                 count += 1;
-            if (count == required)
+            }
+            if (count == required) {
                 return true;
+            }
         }
     }
 
@@ -347,9 +350,11 @@ contract Vidulum {
         constant
         returns (uint count)
     {
-        for (uint i=0; i<owners.length; i++)
-            if (confirmations[transactionId][owners[i]])
+        for (uint i = 0; i<owners.length; i++) {
+            if (confirmations[transactionId][owners[i]]) {
                 count += 1;
+            }
+        }
     }
 
     /// @dev Returns total number of transactions after filers are applied.
@@ -361,10 +366,11 @@ contract Vidulum {
         constant
         returns (uint count)
     {
-        for (uint i=0; i<transactionCount; i++)
-            if (   pending && !transactions[i].executed
-                || executed && transactions[i].executed)
+        for (uint i = 0; i<transactionCount; i++) {
+            if (pending && !transactions[i].executed || executed && transactions[i].executed) {
                 count += 1;
+            }
+        }
     }
 
     /// @dev Returns list of owners.
@@ -388,13 +394,14 @@ contract Vidulum {
         address[] memory confirmationsTemp = new address[](owners.length);
         uint count = 0;
         uint i;
-        for (i=0; i<owners.length; i++)
+        for (i = 0; i<owners.length; i++) {
             if (confirmations[transactionId][owners[i]]) {
                 confirmationsTemp[count] = owners[i];
                 count += 1;
             }
+        }
         _confirmations = new address[](count);
-        for (i=0; i<count; i++)
+        for (i = 0; i<count; i++)
             _confirmations[i] = confirmationsTemp[i];
     }
 
@@ -412,15 +419,15 @@ contract Vidulum {
         uint[] memory transactionIdsTemp = new uint[](transactionCount);
         uint count = 0;
         uint i;
-        for (i=0; i<transactionCount; i++)
-            if (   pending && !transactions[i].executed
-                || executed && transactions[i].executed)
-            {
+        for (i = 0; i<transactionCount; i++) {
+            if (pending && !transactions[i].executed || executed && transactions[i].executed) {
                 transactionIdsTemp[count] = i;
                 count += 1;
             }
+        }
         _transactionIds = new uint[](to - from);
-        for (i=from; i<to; i++)
+        for (i = from; i<to; i++) {
             _transactionIds[i - from] = transactionIdsTemp[i];
+        }
     }
 }
