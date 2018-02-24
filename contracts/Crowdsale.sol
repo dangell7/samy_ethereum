@@ -28,8 +28,6 @@ contract Crowdsale is Ownable {
 
     event TokenContribution(address backer, uint256 weiAmount, uint256 tokens, bool isBonus);
 
-    event Test(bool cap, bool min, bool period);
-
     event Finalized(bool isFinalized);
 
     function Crowdsale(
@@ -146,11 +144,8 @@ contract Crowdsale is Ownable {
 
     // @return true if the transaction can buy tokens
     function validPurchase() internal view returns (bool) {
-        bool withinPeriod = now >= startTime && now <= endTime;
         bool withinCap = weiAmountRaised.add(msg.value) <= cap;
         bool aboveMinimumPurchase = msg.value >= 10000000000000000;
-        Test(withinCap, aboveMinimumPurchase, withinPeriod);
-        return withinCap && aboveMinimumPurchase && withinPeriod;
+        return withinCap && aboveMinimumPurchase;
     }
 }
-

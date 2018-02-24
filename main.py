@@ -22,7 +22,7 @@ def main():
         return
 
     #return
-    smy_token_address = '0x2D5c9f96FB5A96d5006F0668A521c181f7341B11'
+    smy_token_address = '0x21C64552eC487bC3117562C96f306Bb9F77A9dD3'
 
     if not smy_token_address:
         print('No SMY Token Contract, Deploying Contract')
@@ -121,7 +121,7 @@ def main():
 
     deploy_smy.check_samy(smy_token_address, beneficiary_address, 'Beneficiary')
 
-    crowdsale_address = '0xCE301D396b0D9B9Fa98988A3439eFE4c2d6dB74c'
+    crowdsale_address = '0xc814f6AEc6769cB4DE212600Ed6C6F33cA8C85D4'
 
     if not crowdsale_address:
         print('No Crowdsale Contract, Deploying Crowdsale')
@@ -134,7 +134,7 @@ def main():
 
 
     crowdsale_funded = deploy_crowdsale.check_crowdsale(smy_token_address=smy_token_address, crowdsale_address=crowdsale_address)
-    #print('Crowdsale Funded: %s' % crowdsale_funded)
+    print('Crowdsale Funded: %s' % crowdsale_funded)
     #return
 
     if crowdsale_funded == False:

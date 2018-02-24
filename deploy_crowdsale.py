@@ -30,7 +30,7 @@ def deploy_crowdsale(smy_token_address=None, owner_address=None, owner_key=None,
     _bonus_start = int(time.time())
     _bonus_end = int(time.time() + 3600)
     _start_time = _bonus_end
-    _end_time = int(_start_time + 3600)
+    _end_time = int(_start_time + 86400)
 
     _bonus = 20 # 20% Bonus
 
