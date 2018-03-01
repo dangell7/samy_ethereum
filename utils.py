@@ -13,7 +13,7 @@ from web3.contract import ConciseContract
 
 try:
     #w3 = Web3(HTTPProvider('http://159.89.80.176:8102'))
-    w3 = Web3(HTTPProvider('https://ropsten.infura.io/hEkZ5mQIZbPJfygOuNgZ'))
+    w3 = Web3(HTTPProvider('https://infura.io/hEkZ5mQIZbPJfygOuNgZ'))
     #w3 = Web3(IPCProvider('chains/samynet/chain_data/geth.ipc'))
 except Exception as e:
     print('Error Getting Web3; Error: %s' % e)

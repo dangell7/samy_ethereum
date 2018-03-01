@@ -9,12 +9,10 @@ def create_owner(password=None):
 
     data = {
         'address': address,
-        'password': password,
-        'key': key
+        'password': password
     }
 
-    with open('Owner.json', 'w') as outfile:
-        json.dump(data, outfile)
+    print(data)
 
     return address
 
@@ -23,9 +21,10 @@ def create_beneficiary(password=None):
 
     data = {
         'address': address,
-        'password': password,
-        'key': key
+        'password': password
     }
+
+    print(data)
 
     with open('Beneficiary.json', 'w') as outfile:
         json.dump(data, outfile)
@@ -37,12 +36,10 @@ def create_denis(password=None):
 
     data = {
         'address': address,
-        'password': password,
-        'key': key
+        'password': password
     }
 
-    with open('Denis.json', 'w') as outfile:
-        json.dump(data, outfile)
+    print(data)
 
     return address
 
@@ -51,12 +48,10 @@ def create_william(password=None):
 
     data = {
         'address': address,
-        'password': password,
-        'key': key
+        'password': password
     }
 
-    with open('William.json', 'w') as outfile:
-        json.dump(data, outfile)
+    print(data)
 
     return address
 
@@ -65,8 +60,7 @@ def create_matt(password=None):
 
     data = {
         'address': address,
-        'password': password,
-        'key': key
+        'password': password
     }
 
     with open('Matt.json', 'w') as outfile:
@@ -79,12 +73,10 @@ def create_user(password=None):
 
     data = {
         'address': address,
-        'password': password,
-        'key': key
+        'password': password
     }
 
-    with open('User.json', 'w') as outfile:
-        json.dump(data, outfile)
+    print(data)
 
     return address
 

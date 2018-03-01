@@ -150,7 +150,6 @@ def main():
 
     user_key = '0x6e7e1b0ad493e1bfdcd6ba1d33ad7aa919acff523e26c85e3f5fd72346bce160'
 
-    if not user_address:
         print('No User Wallet, Creating User')
         address = deploy_team.create_user(utils.randompassword())
         print('User Address: %s' % address)
