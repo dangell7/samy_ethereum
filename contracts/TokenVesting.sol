@@ -16,7 +16,7 @@ contract TokenVesting is Ownable {
     using SafeMath for uint256;
     using SafeERC20 for ERC20Basic;
 
-    event Released(uint256 amount);
+    event Released(address founder, uint256 amount);
     event Revoked();
 
     // beneficiary of tokens after they are released
@@ -64,7 +64,7 @@ contract TokenVesting is Ownable {
 
         token.safeTransfer(beneficiary, unreleased);
 
-        Released(unreleased);
+        Released(beneficiary, unreleased);
     }
 
     /**

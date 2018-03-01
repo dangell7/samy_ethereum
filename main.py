@@ -166,7 +166,7 @@ def main():
 
     ended, goal = deploy_crowdsale.check_crowdsale(smy_token_address, crowdsale_address)
 
-    deploy_crowdsale.transaction_crowdsale(crowdsale_address, user_address, user_key)
+    #deploy_crowdsale.transaction_crowdsale(crowdsale_address, user_address, user_key)
 
     #return
     #ended = False

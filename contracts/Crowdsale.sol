@@ -111,7 +111,7 @@ contract Crowdsale is Ownable {
             burnRemaining();
         } else {
             vault.enableRefunds();
-            transferRemaining();
+            burnRemaining();
         }
 
         Finalized(isFinalized);
@@ -133,13 +133,6 @@ contract Crowdsale is Ownable {
     function burnRemaining() onlyOwner  public {
         uint256 amount = token.balanceOf(this);
         token.burn(amount);
-    }
-
-    // Transfer remaining tokens left in crowdsale
-    function transferRemaining() onlyOwner  public {
-        address to = msg.sender;
-        uint256 amount = token.balanceOf(this);
-        token.safeTransfer(to, amount);
     }
 
     // @return true if the transaction can buy tokens
